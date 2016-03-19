@@ -1,0 +1,43 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+@charset "UTF-8";a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video{margin:0;padding:0;border:0;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:after,blockquote:before,q:after,q:before{content:'';content:none}table{border-collapse:collapse;border-spacing:0}a:link,a:visited{text-decoration:none;color:#5A5E62}
+
+@font-face{
+  font-family: dosis;
+  src:url("Dosis-SemiBold.ttf");
+}
+
+#header a{
+	z-index : 100000;
+	position: fixed;
+	top : 0;
+	width : 300px;
+	height : 64px;
+	left : 50%;
+	margin-left: -150px;
+	padding : 0;
+	background-image: url('../img/header.png');
+	background-size: contain;
+}
+
+body{
+	background-color: #35343A;
+}
+
+h2{
+	color : white;
+	font-size: 50px;
+	font-family: dosis;
+}
+
+#message{
+	width : 100%;
+	position: fixed;
+	top : 50%;
+	text-align: center;
+	height : 80px;
+	margin-top: -40px;
+}

@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registration</title>
+		<link rel="stylesheet" type="text/css" href="css/loader.css">
+		<link rel="stylesheet" type="text/css" href="css/reset.css">
+		<link rel="stylesheet" href="css/fonts.css">
+		<link rel="stylesheet" href="css/remodal.css">
+		<link rel="stylesheet" type="text/css" href="css/remodal-default-theme.css">
+		<link rel="stylesheet" type="text/css" href="css/menu.css">
+	<link rel="stylesheet" type="text/css" href="css/register.css"> 
+	<link rel="stylesheet" type="text/css" href="css/sweetalert.css">
+		
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<script type="text/javascript" src="javascript/jquery-ui-1.11.4.custom/jquery-ui.js"></script>
+	<script type="text/javascript" src="javascript/add_verticals.js"></script>
+	<script src="javascript/sweetalert.min.js"></script>
+	<script src='https://www.google.com/recaptcha/api.js'></script>
+	<script src='https://www.google.com/recaptcha/api.js'></script>
+</head>
+<body>
+	
+	<div id="loader">
+			<div id="loader-contain">
+  <div class="stick"></div>
+  <div class="stick"></div>
+  <div class="stick"></div>
+  <div class="stick"></div>
+  <div class="stick"></div>
+  <div class="stick"></div>
+  
+  <h1 id="loading">Loading...</h1>
+  </div>
+</div>
+		<script type="text/javascript">
+			$(window).load(function() {
+		// Animate loader off screen
+		$("#loader").fadeOut("slow");;
+	});
+		</script>
+	
+				<div id="header">
+			<a href="../index.htm">
+			</a>
+		</div>
+		<div id="menutoggle">
+			<div id="line1"></div>
+			<div id="line2"></div>
+			<div id="line3"></div>
+		</div>
+		<div id="menu">
+			<ul id="menulist">
+				<li class="menuelement"><a href="../index.htm">Home</a></li>
+				<li class="menuelement"><a href="../lookback.htm">Lookback</a></li>
+				<li class="menuelement"><a href="../verticals/events/homepage.html">Events</a></li>
+				<li class="menuelement"><a href="#modal2">Professional Nights</a></li>
+				<li class="menuelement"><a href="registration.html">Register</a></li>
+				<li class="menuelement"><a href="#modal2">Sponsors</a></li>
+				<li class="menuelement"><a href="#modal2">Media Coverage</a></li>
+				<li class="menuelement"><a href="../contacts.htm">Contacts</a></li>
+				<li class="menuelement"><a href="https://3lementary.wordpress.com/">Blog</a></li>
+				<li class="menuelement"><a href="#modal">Credits</a></li>
+				<li class="menuelement" id="socialslab">
+					<ul>
+					<li><a href="https://www.facebook.com/bitswaves?fref=ts" target="_blank"><img src="img/facebook.png"  id="fb"/></a></li>
+					<li><a href="https://twitter.com/BITSWaves" target="_blank"><img src="img/twitter.png" id="tw"/></a></li>
+					<li><a href="https://www.youtube.com/user/WavesBITSGoa" target="_blank"><img src="img/youtube.png" id="yt"/></a></li>
+					<li><a href=""><img src="img/android.png" id="an"/></a></li>
+				</ul><li>
+			</ul>
+		</div>
+		<div class="remodal" data-remodal-id="modal" id="credits">
+  <button data-remodal-action="close" class="remodal-close"></button>
+  	<a href="https://www.facebook.com/aashray.bhandari?fref=ts" target="_blank"><h2>Aashray Bhandari</h2></a>
+  	<p>Web Design and Development</p></br>
+  	<a href="https://www.facebook.com/vidyarthi.prakhar?fref=ts" target="_blank"><h2>Prakhar Vidyarthi</h2></a>
+  	<p>Web Design</p></br>
+  	<a href="https://www.facebook.com/prajwal.sagar1?fref=ts" target="_blank"><h2>Prajwal Sagar</h2></a>
+  	<p>Web Development</p></br>
+  	<a href="https://www.facebook.com/aadityav?fref=ts" target="_blank"><h2>Aaditya Vaze</h2></a>
+  	<p>Graphic Design</p>
+</div>
+<div class="remodal" data-remodal-id="modal2" id="credits">
+  <button data-remodal-action="close" class="remodal-close"></button>
+  	<p>Coming Soon</p>
+</div>
+<div id="formdiv">
+	<form name="form" action="demo_form.php" method="POST" id="form" onsubmit="ValidateRequiredFields()">
+		<h2 class="heading">Personal Details</h2>
+		<p class="textbox">Name<span STYLE="color:white">*</span></p>
+		<input type="text" name="name" class="type">
+		<p class="textbox">Password<span style="color:white">*</span></p>     
+		<input type="password" name="password" class="type">
+			<p class="textbox">Email ID<span style="color:white">*</span></p>
+			<input id="email" type="text" name="email" class="type">
+			<p class="textbox">Contact Number<span style="color:white">*</span></p>
+			<input type="text" name="contact_no" class="type">
+			<p class="textbox">City<span style="color:white">*</span></p>
+			<input type="text" name="city" class="type">
+			<p class="textbox">College<span style="color:white">*</span></p>
+			<input type="text" name="college" class="type">			
+			<p class="textbox">Team Name</p>
+			<input type="text" name="team_name" class="type">
+		</p>
+		<br>
+		<h2 class="heading">Event Details</h2>
+		
+			<div id="accordion">
+				<h3> - Dance - </h3>
+				<div>
+					<input type="checkbox" name="sizzle" value="yes" id="check">Sizzle<br>
+					<input type="checkbox" name="dhinchak" value="yes">Dhinchak<br>
+					<input type="checkbox" name="jumele" value="yes">Jumele<br>
+				</div>
+				<h3> - Drama - </h3>
+				<div>
+					<input type="checkbox" name="rangmanch" value="yes">Rangmanch<br>
+					<input type="checkbox" name="nukkad_natak" value="yes">Nukkad Natak<br>
+					<input type="checkbox" name="skime" value="yes">Skime<br>
+				</div>
+				<h3> - Film - </h3>
+				<div>
+					<input type="checkbox" name="montage" value="yes">Montage<br>
+					<input type="checkbox" name="mezzotint" value="yes">Mezzotint<br>
+					<input type="checkbox" name="reverse_flash" value="yes">Reverse Flash<br>
+					<input type="checkbox" name="time_lapse" value="yes">Time Lapse<br>
+				</div>
+				<h3> - Fine Arts - </h3>
+				<div>
+					<input type="checkbox" name="portature" value="yes">Portrature<br>
+					<input type="checkbox" name="panorama" value="yes">Panorama<br>
+					<input type="checkbox" name="artathon" value="yes">Artathon<br>
+					<input type="checkbox" name="shutter_island" value="yes">ShutterIsland<br>
+				</div>
+				<h3> - Literary - </h3>
+				<div>
+					<input type="checkbox" name="just_a_minute" value="yes">Just A Minute<br>
+					<input type="checkbox" name="waves_poetry_slam" value="yes">Waves Poetry Slam<br>
+					<input type="checkbox" name="word_games" value="yes">Word Games<br>
+				</div>
+				<h3> - Music - </h3>
+				<div>
+					<input type="checkbox" name="indian_rock" value="yes">Indian Rock<br>
+					<input type="checkbox" name="silence_of_the_amps" value="yes">Silence Of The Amps<br>
+					<input type="checkbox" name="the_jukebox" value="yes">The Jukebox<br>
+					<input type="checkbox" name="solonote" value="yes">Solonote<br>
+					<input type="checkbox" name="alaap" value="yes">Alaap<br>
+				</div>
+				<h3> - Quiz - </h3>
+				<div>
+					<input type="checkbox" name="waves_open_quiz" value="yes">Waves Open Quiz<br>
+					<input type="checkbox" name="the_entertainment_quiz" value="yes">The Entertainment Quiz<br>
+					<input type="checkbox" name="the_vices_quiz" value="yes">The Vices Quiz<br>
+					<input type="checkbox" name="the_lone_wolf" value="yes">The Lonewolf<br>
+				</div>
+				<h3> - Specials - </h3>
+				<div>
+					<input type="checkbox" name="sea_rock" value="yes">Sea Rock<br>
+					<input type="checkbox" name="lexomnia" value="yes">Lexomnia<br>
+					<input type="checkbox" name="contention" value="yes">Contention<br>
+					<input type="checkbox" name="wallstreet_fete" value="yes">Wallstreet Fete<br>
+					<input type="checkbox" name="show_me_the_funny" value="yes">Show Me The Funny<br>
+					<input type="checkbox" name="ratatouille" value="yes">Ratatouille<br>
+					<input type="checkbox" name="rubik_challenge" value="yes">Rubik's Challenge<br>
+				</div>
+				<h3> - The Big Three - </h3>
+				<div>
+					<input type="checkbox" name="fashp" value="yes">Fash-P<br>
+					<input type="checkbox" name="natyanjali" value="yes">Natyanjali<br>
+					<input type="checkbox" name="mr_and_ms_waves" value="yes">Mr and Ms Waves<br>
+				</div><br><br>
+			</div>
+			<div class="g-recaptcha" data-sitekey="6LdaJwoTAAAAALP1l13d_MTDAsrihaMd6sLH_8nC"></div>
+		<input id="button" type="submit">
+	</div>
+		<script type="text/javascript" src="javascript/jquery.transit.min.js"></script>
+		<script src="javascript/remodal.min.js"></script>
+		<script type="text/javascript" src="javascript/menu.js"></script>
+		<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-65223208-2', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>

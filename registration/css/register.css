@@ -1,0 +1,92 @@
+#formdiv{
+	top : 100px;
+	position: absolute;
+	width: 480px;
+	left : 50%;
+	margin-left: -240px;
+	text-align: center;
+	font-family: whitepine;
+}
+
+#formdiv h3,#formdiv p{
+	font-size: 24px;
+}
+
+#formdiv input{
+	border-radius: 7px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.heading{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	font-size: 40px;
+}
+#accordion{
+	text-align:center;
+}
+#accordion :hover{
+	cursor: pointer;
+	outline:none;
+}
+
+#accordion h3{
+	margin-top: 20px;
+	font-size: 28px;
+}
+h3{
+	outline:none;
+}
+
+#accordion{
+	font-size: 24px;
+}
+
+#accordion div{
+	overflow: hidden;
+}
+
+.type{
+	width : 280px;
+	height : 30px;
+}
+
+body{
+	background-color: #101010;
+	color: #AFAEAD;
+}
+
+input:focus, textarea:focus{
+	border : 2px solid #aaaaaa;
+}
+
+#accordion div{
+	margin-top: 10px;
+}
+#button{
+	
+	cursor:pointer;
+}
+#comp_list{
+	left:0;	
+}
+
+input[type=checkbox] {
+	height: 16px;
+	width : 16px;
+}
+
+#button{
+	height : 35px;
+	width : 70px;
+	background-color: #1F546E;
+	border: none;
+	position: relative;
+	top : 30px;
+	color: #AFAEAD;
+	font-size: 18px;
+}
+.g-recaptcha{
+	margin-left:100px;
+}
