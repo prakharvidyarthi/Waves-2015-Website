@@ -1,0 +1,154 @@
+$(document).ready(function(){
+
+	$('#manas_image').mouseenter(function(){
+		$(this).fadeTo(200,0.001);
+		$(this).promise().done(function(){
+		$('#manas_image').attr("src","contacts/img/manas_anim.png");
+		$(this).fadeTo(300,1);
+	});
+		});
+		
+	$('#vamsi_image').mouseenter(function(){
+		$(this).fadeTo(200,0.001);
+		$(this).promise().done(function(){
+		$('#vamsi_image').attr("src","contacts/img/vamsi_anim.png");
+		$(this).fadeTo(300,1);
+	});
+		});
+
+	$('#parth_image').mouseenter(function(){	
+		$(this).fadeTo(200,0.001);
+		$(this).promise().done(function(){
+		$('#parth_image').attr("src","contacts/img/parth_anim.png");
+		$(this).fadeTo(300,1);
+	});
+		});
+		
+	$('#shashwat_image').mouseenter(function(){	
+		$(this).fadeTo(200,0.001);
+		$(this).promise().done(function(){
+		$('#shashwat_image').attr("src","contacts/img/shashwat_anim.png");
+		$(this).fadeTo(300,1);
+	});
+		});
+		
+	$('#ananya_image').mouseenter(function(){	
+		$(this).fadeTo(200,0.001);
+		$(this).promise().done(function(){
+		$('#ananya_image').attr("src","contacts/img/ananya_anim.png");
+		$(this).fadeTo(300,1);
+	});
+		});
+		
+	$('#tatia_image').mouseenter(function(){	
+		$(this).fadeTo(200,0.001);
+		$(this).promise().done(function(){
+		$('#tatia_image').attr("src","contacts/img/tatia_anim.png");
+		$(this).fadeTo(300,1);
+	});
+		});
+		
+	$('#madhu_image').mouseenter(function(){	
+		$(this).fadeTo(200,0.001);
+		$(this).promise().done(function(){
+		$('#madhu_image').attr("src","contacts/img/madhu_anim.png");
+		$(this).fadeTo(300,1);
+	});
+		});
+		
+	$('#saee_image').mouseenter(function(){	
+		$(this).fadeTo(200,0.001);
+		$(this).promise().done(function(){
+		$('#saee_image').attr("src","contacts/img/saee_anim.png");
+		$(this).fadeTo(300,1);
+	});
+		});
+		
+	$('#bassi_image').mouseenter(function(){	
+		$(this).fadeTo(200,0.001);
+		$(this).promise().done(function(){
+		$('#bassi_image').attr("src","contacts/img/bassi_anim.png");
+		$(this).fadeTo(300,1);
+	});
+		});
+
+	$('#ishita_image').mouseenter(function(){
+		$(this).fadeTo(200,0.001);
+		$(this).promise().done(function(){
+		$('#ishita_image').attr("src","contacts/img/ishita_anim.png");
+		$(this).fadeTo(300,1);
+	});
+		});
+
+	$('#manas_image').mouseleave(function(){
+		$(this).fadeTo(200,0.001);
+		$(this).promise().done(function(){
+		$('#manas_image').attr("src","contacts/img/manas_real.png");
+		$(this).fadeTo(300,1);
+	});
+		});
+		$('#vamsi_image').mouseleave(function(){
+		$(this).fadeTo(200,0.001);
+		$(this).promise().done(function(){
+		$('#vamsi_image').attr("src","contacts/img/vamsi_real.png");
+		$(this).fadeTo(300,1);
+	});
+		});
+		$('#parth_image').mouseleave(function(){
+		$(this).fadeTo(200,0.001);
+		$(this).promise().done(function(){
+		$('#parth_image').attr("src","contacts/img/parth_real.png");
+		$(this).fadeTo(300,1);
+	});
+		});
+		$('#shashwat_image').mouseleave(function(){
+		$(this).fadeTo(200,0.001);
+		$(this).promise().done(function(){
+		$('#shashwat_image').attr("src","contacts/img/shashwat_real.png");
+		$(this).fadeTo(300,1);
+	});
+		});
+		$('#ananya_image').mouseleave(function(){
+		$(this).fadeTo(200,0.001);
+		$(this).promise().done(function(){
+		$('#ananya_image').attr("src","contacts/img/ananya_real.png");
+		$(this).fadeTo(300,1);
+	});
+		});
+		$('#tatia_image').mouseleave(function(){
+		$(this).fadeTo(200,0.001);
+		$(this).promise().done(function(){
+		$('#tatia_image').attr("src","contacts/img/tatia_real.png");
+		$(this).fadeTo(300,1);
+	});
+		});
+		$('#madhu_image').mouseleave(function(){
+		$(this).fadeTo(200,0.001);
+		$(this).promise().done(function(){
+		$('#madhu_image').attr("src","contacts/img/madhu_real.png");
+		$(this).fadeTo(300,1);
+	});
+		});
+		$('#saee_image').mouseleave(function(){
+		$(this).fadeTo(200,0.001);
+		$(this).promise().done(function(){
+		$('#saee_image').attr("src","contacts/img/saee_real.png");
+		$(this).fadeTo(300,1);
+	});
+		});
+		$('#bassi_image').mouseleave(function(){
+		$(this).fadeTo(200,0.001);
+		$(this).promise().done(function(){
+		$('#bassi_image').attr("src","contacts/img/bassi_real.png");
+		$(this).fadeTo(300,1);
+	});	
+		});
+
+		$('#ishita_image').mouseleave(function(){
+		$(this).fadeTo(200,0.001);
+		$(this).promise().done(function(){
+		$('#ishita_image').attr("src","contacts/img/ishita_real.png");
+		$(this).fadeTo(300,1);
+	});
+		});
+});

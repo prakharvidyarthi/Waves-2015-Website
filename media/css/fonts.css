@@ -1,0 +1,11 @@
+@font-face{
+  font-family: book;
+  src:url("../fonts/bookletter.ttf");
+}
+
+@font-face{
+  font-family: whitepine;
+  src:url("../fonts/WhitePine-Regular.otf");
+}
+
+@font-face{font-family:ikaros;src:url(../fonts/ikaros.otf)}

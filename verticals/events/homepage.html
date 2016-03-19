@@ -1,0 +1,1754 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1"> 
+		<title>Events</title>
+		<link rel="shortcut icon" href="../favicon.ico">
+		<link rel="stylesheet" href="js/jquery.pagepiling.css">
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" type="text/css" href="css/fonts.css">
+		<link rel="stylesheet" type="text/css" href="css/loader.css">
+		<link rel="stylesheet" href="css/stylesheet.css">
+		<link rel="stylesheet" type="text/css" href="css/menu.css">
+		<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+		<link rel="stylesheet" type="text/css" href="css/demo.css" />
+		<link rel="stylesheet" type="text/css" href="css/component.css" />
+		<link rel="stylesheet" href="css/dist/remodal.css">
+		<link rel="stylesheet" href="css/dist/remodal-default-theme.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<script type="text/javascript" src="js/jquery.pagepiling.min.js"></script>
+    	<script type="text/javascript" src="js/main.js"></script>
+		<script src="js/modernizr.custom.js"></script>
+	</head>
+	<body>
+		<div id="loader">
+			<div id="loader-contain">
+  <div class="stick"></div>
+  <div class="stick"></div>
+  <div class="stick"></div>
+  <div class="stick"></div>
+  <div class="stick"></div>
+  <div class="stick"></div>
+  
+  <h1 id="loading">Loading...</h1>
+  </div>
+</div>
+    <script type="text/javascript">
+      $(window).load(function() {
+    // Animate loader off screen
+    $("#loader").fadeOut("slow");;
+  });
+    </script>
+		
+		<div id="menutoggle">
+			<div id="line1"></div>
+			<div id="line2"></div>
+			<div id="line3"></div>
+		</div>
+		<div id="menu">
+			<ul id="menulist">
+				<li class="menuelement"><a href="../../index.htm">Home</a></li>
+				<li class="menuelement"><a href="../../lookback.htm">Lookback</a></li>
+				<li class="menuelement"><a href="../../registration/registration.html">Register</a></li>
+				<li class="menuelement"><a href="../../contacts.htm">Contacts</a></li>
+				<li class="menuelement"><a href="#modalu">Credits</a></li>
+				<li class="menuelement"></li>
+				<li class="menuelement"></li>
+				<li class="menuelement" id="socialslab">
+					<ul>
+					<li><a href="https://www.facebook.com/bitswaves?fref=ts" target="_blank"><img src="img/facebook.png"  id="fb"/></a></li>
+					<li><a href="https://twitter.com/BITSWaves" target="_blank"><img src="img/twitter.png" id="tw"/></a></li>
+					<li><a href="https://www.youtube.com/user/WavesBITSGoa" target="_blank"><img src="img/youtube.png" id="yt"/></a></li>
+					<li><a href=""><img src="img/android.png" id="an"/></a></li>
+				</ul>
+			</ul>
+		</div>
+		</div>
+		<div class="remodal" data-remodal-id="modalu" id="credits">
+  <button data-remodal-action="close" class="remodal-close"></button>
+  	<a href="https://www.facebook.com/aashray.bhandari?fref=ts" target="_blank"><h2>Aashray Bhandari</h2></a>
+  	<p>Web Design and Development</p></br>
+  	<a href="https://www.facebook.com/vidyarthi.prakhar?fref=ts" target="_blank"><h2>Prakhar Vidyarthi</h2></a>
+  	<p>Web Design</p></br>
+  	<a href="https://www.facebook.com/prajwal.sagar1?fref=ts" target="_blank"><h2>Prajwal Sagar</h2></a>
+  	<p>Web Development</p></br>
+  	<a href="https://www.facebook.com/aadityav?fref=ts" target="_blank"><h2>Aaditya Vaze</h2></a>
+  	<p>Graphic Design</p>
+</div>
+<div class="remodal" data-remodal-id="modalu2" id="credits">
+  <button data-remodal-action="close" class="remodal-close"></button>
+  	<p>Coming Soon</p>
+</div>
+		<ul id="myMenu">
+    		<li data-menuanchor="Music" class="active"><a href="#Music">Music</a></li><!--
+    		--><li data-menuanchor="Dance"><a href="#Dance">Dance</a></li><!--
+    		--><li data-menuanchor="Drama"><a href="#Drama">Drama</a></li><!--
+    		--><li data-menuanchor="Film"><a href="#Film">Film</a></li><!--
+    		--><li data-menuanchor="Fine_arts" ><a href="#Fine_arts">Fine Arts</a></li><!--
+    		--><li data-menuanchor="Quiz"><a href="#Quiz">Quiz</a></li><!--
+    		--><li data-menuanchor="Literary"><a href="#Literary">Literary</a></li><!--
+    		--><li data-menuanchor="The_waves_specials"><a href="#The_waves_specials">Specials</a></li>
+		</ul>
+		<div id="pagepiling">
+    	<div class="section " id="music">
+		<!--<div class="container">-->
+			<div class="slideshow" id="slideshow">
+				<ol class="slides">
+					<li class="current">
+						<div class="description">
+							<h2>Indian Rock</h2>
+							<p>If rock music is your forte, this where you need to be. The perfect platform to provide you with an opportunity to showcase your talent in rock music, albeit the Indian way. Let any Indian language bring to us the magic of your music.Performances can be known songs or own compositions. Think you have what it takes to be the true rockstar? Come show us. <br></p>
+							<div class="remodal-bg">
+  								<a data-remodal-target="modal" href="#" id="click">Rules</a><br>
+							<div class="remodal" data-remodal-id="modal" data-remodal-options="hashTracking: false" role="dialog" aria-labelledby="modal1Title" aria-describedby="modal1Desc" id="modal-music">
+  								<button data-remodal-action="close" class="remodal-close" aria-label="Close"></button>
+ 								 <div >
+    								<h2 class="Title_rules">Indian Rock Rules<br><br></h2>
+   									 <p id="constant"><strong>Category:</strong>Gold<br><br>
+									<strong>Team composition:</strong> 4 – 10 members<br><br>
+									<strong>Teams per college:</strong> Unlimited<br><br>
+									<strong>Registration:</strong> Online/On the spot<br><br>
+									<strong>Time limit:</strong><br><br>
+									&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>Eliminations:</strong> 10 minutes<br><br>
+									&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>Finals:</strong> 15 minutes<br><br></p>
+									<p>
+									<ul class="list">
+										<p class="subheading">General Rules:</p><br>
+											 <li class="general_rules">The songs should have lyrics in Indian languages. However, a rap with English lyrics is allowed.
+											</li><br>
+											<li class="general_rules">Original compositions are allowed. In this case, 3 copies of the lyrics must be submitted at the time of registration on campus</li><br>
+											<li class="general_rules">In case of lyrics in any Indian languag other than Hindi , 3 copies of the literal translation of the lyrics in English must be e-mailed at events@bits-waves.org</li><br>
+											<li class="general_rules">Lyrics will be checked for vulgarity and profanity</li><br>
+											<li class="general_rules">Every extra minute taken beyond specified time limit will lead to reduction of 5% of the total marks scored</li><br>
+											<li class="general_rules">Usage of at least one percussion instrument is compulsory</li><br>
+											<li class="general_rules">A minimum of one vocalist is compulsory</li><br>
+											<li class="general_rules">There should be a minimum of four performing members on the stage at any particular point in time</li><br>
+											<li class="general_rules">Any pre-recorded music will lead to disqualification</li><br>
+											<li class="general_rules">No marks from the elimination roundwill be carried over to the finals</li><br>
+											<li class="general_rules">Availability of the following instruments (if required) is assured:Drum set, an electric Bass, a Keyboard, a Congo and a Tabla set.Any other instrument has to be bought by the participants</li><br>
+											<li class="general_rules">Judging criteria will include:<br><br>1. Rhythm<br>2. Sur<br>3. Pitching<br>4. Choice of songs<br>5. Overall performance<br>6. Background, Score<br><br></li>
+									</ul>
+									<ul class="list">
+										<p class="subheading">Elimination Round:</p><br>
+											<li class="general_rules">The time limit for this round is 10 minutes, including the setup time</li><br>
+											<li class="general_rules">A minimum of one song has to be performed within the given time</li><br>
+											<li class="general_rules">The time limit will be strictly adhered to even if the team plays more than one song</li><br>
+											<li class="general_rules">Only one song from the elimination round may be performed in the finals<br><br></li>
+									</ul>
+									<ul class="list">
+										<p class="subheading">Final Round:</p><br>
+											<li class="general_rules">A total of 7 teams will qualify for the finals</li><br>
+											<li class="general_rules">The time limit for this round is 15 minutes, including setup time</li><br>
+											<li class="general_rules">A minimum of two songs have to be performed</li><br>
+											<li class="general_rules">One song of the two has to be an original arrangement/improvisation of a Bollywood song. </li><br>
+											<li class="general_rules">The improvisation should include a short instrumental piece</li><br>
+											<li class="general_rules">Bonus points will be awarded if the instrumental piece is an original composition</li><br>	
+											<li class="general_rules">This song can also be a mashup of maximum two songs</li><br>	
+											<li class="general_rules">The vocalists may choose to hum,whistle, sing Taranaas, Sargam or in Aakar but cannot sing discrete words during the instrumental piece</li><br>	
+											<li class="general_rules">The other song can be the one performed in eliminations. However, it could be a new song as well</li><br>	
+									</ul>
+									<br><br><a id="click2" href="../../registration/registration.html">Register</a>
+    								</p>
+  								</div>
+							</div>
+						</div>
+						</div>
+						<div class="tiltview col">
+								
+								<img src="img/waves/indian_rock_1.jpg"/>
+						</div>
+					</li>
+					<li>
+						<div class="description">
+							<h2>Silence Of The Amps</h2>
+							<p>At this acoustic music event woo us over with beautiful acoustic renditions of English songs of any genre. Think your soulful acoustic version is the finest the song can be, show us too, the stage is all yours. Let the world witness you talent. </p>
+							<div class="remodal-bg">
+  								<a data-remodal-target="modal2" href="#" id="click">Rules</a><br>
+							<div class="remodal" data-remodal-id="modal2" data-remodal-options="hashTracking: false" role="dialog" aria-labelledby="modal1Title" aria-describedby="modal1Desc" id="modal-music">
+  								<button data-remodal-action="close" class="remodal-close" aria-label="Close"></button>
+ 								 <div>
+ 								 	<h2 class="Title_rules">Silence Of The Amps Rules<br><br></h2>
+ 								 	<p id="constant"><strong>Category:</strong>Gold<br><br>
+									<strong>Team composition:</strong> 3 – 6 members<br><br>
+									<strong>Teams per college:</strong> Unlimited<br><br>
+									<strong>Registration:</strong> Online/On the spot<br><br>
+									<strong>Time limit:</strong> 13 minutes<br><br></p>
+									<p>
+									<ul class="list">
+										<p class="subheading">General Rules:</p><br>
+										<li class="general_rules">A minimum of 2 songs should be performed</li><br>
+										<li class="general_rules">The participants have to perform acoustic renditions of English songs of any genre or their original compositions</li><br>
+										<li class="general_rules">A minimum of one vocalist is compulsory</li><br>
+										<li class="general_rules">There should be a minimum of three performing members on the stage at any particular point in time</li><br>
+										<li class="general_rules">A Capella performances are allowed</li><br>
+										<li class="general_rules">The time limit for this round is 13 minutes, including setup time</li><br>
+										<li class="general_rules">Every extra minute taken beyond the specified time limit will lead to reduction of 5% of the total marks scored</li><br>
+										<li class="general_rules">Availability of the following instruments (if required) is assured: An Electric Bass, a Keyboard and a Congo</li><br>
+										<li class="general_rules">Usage of keyboard only in piano tune is allowed. No other electronic instruments are allowed</li><br>
+									</ul>
+									<br><br><a id="click2" href="../../registration/registration.html">Register</a>
+									<p>
+ 								 </div>
+ 							</div>
+ 							</div>
+						</div>
+						<div class="tiltview col">
+							<img src="img/waves/silence_of_the_amps.jpg"/>
+						</div>
+					</li>
+					<li>
+						<div class="description">
+							<h2>Juke Box</h2>
+							<p>Passionate singer or just a quintessential bathroom singer, if you think your voice deserves to be out there, we choose to believe in you. Give your music a chance to mesmerize everyone at Waves where your stage awaits you.</p>
+							<div class="remodal-bg">
+  								<a data-remodal-target="modal3" href="#" id="click">Rules</a><br>
+							<div class="remodal" data-remodal-id="modal3" data-remodal-options="hashTracking: false" role="dialog" aria-labelledby="modal1Title" aria-describedby="modal1Desc" id="modal-music">
+  								<button data-remodal-action="close" class="remodal-close" aria-label="Close"></button>
+ 								 <div>
+ 								 	<h2 class="Title_rules">Jukebox Rules<br><br></h2>
+ 								 	<p id="constant"><strong>Category:</strong>Silver<br><br>
+									<strong>Team composition:</strong> 1 member<br><br>
+									<strong>Teams per college:</strong> 1-10<br><br>
+									<strong>Registration:</strong> Online/On the spot<br><br>
+									<strong>Time limit:</strong><br><br>
+									&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>Eliminations:</strong> 5 minutes<br><br>
+									&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>Finals:</strong> 10 minutes<br><br></p>
+									<p>
+									<ul class="list">
+										<p class="subheading">General Rules:</p><br>
+										<li class="general_rules"> There will be two rounds. A maximum of 10 people (maximum of 5 from the Western category and 5 from the Indian category) will be selected from the elimination round to the final round</li><br>
+										<li class="general_rules">Western and Indian participants will be judged separately and the winners will be announced for both the categories separately</li><br>
+										<li class="general_rules">Out of the 10 (maximum possible) participants from each college, there is no restriction on the ratio of the number of participants of either category</li><br>
+										<li class="general_rules">The song can be in English (Western) OR in any Indian language (Indian). In case the song is not in Hindi, the participants must e-mail one copy of the lyrics, translated to Hindi/English, at events@bitswaves.org</li><br>
+										<li class="general_rules">Every extra minute taken beyond specified time limit will lead to reduction of 5% of the total marks scored</li><br>
+										<li class="general_rules">A single participant can take part in either Western or Indian category.Taking part in both the categories is not allowed</li><br>
+										<li class="general_rules">Participants are allowed to use either of the following to accompany their song :<br><br>1. Instruments: ONLY ONE accompanying instrument is allowed. The instrument can be played by the singer themselves,or by someone else<br><br>2. Backing track: In case the participant wished to use a backing track, they should provide the organisers with the same in a pen-drive</li><br>
+										<li class="general_rules">Availability of the following instruments (if required) is assured: A Keyboard (in Piano tone) and an Acoustic Guitar</li><br>
+										<li class="general_rules">Judging criteria will include:<br><br>1. Rhythm<br>2. Sur<br>3. Pitching<br>4. Choice of Songs<br>5. Overall performance<br><br></li>
+									</ul>
+									<ul class="list">
+										<p class="subheading">Elimination Round:</p><br>
+										<li class="general_rules">The time limit for this round is 5 minutes</li><br>
+										<li class="general_rules">Participants will have to perform only one song</li><br>
+										<li class="general_rules">No marks from the elimination round will be carried forward to the finals<br><br></li>
+									</ul>
+									<ul class="list">
+										<p class="subheading">Final Round:</p><br>
+										<li class="general_rules">The time limit for this round is 10 minutes, including setup time</li><br>
+										<li class="general_rules">Participants have to perform two songs</li><br>
+										<li class="general_rules">One of the songs has to be an English (for Western Category) /Bollywood (for Indian Category) song </li><br>
+										<li class="general_rules">The other song can be the one sung in the elimination round or can be a new song too</li>
+									</ul>
+									<br><br><a id="click2" href="../../registration/registration.html">Register</a>
+									</p>
+								</div>
+							</div>
+							</div>
+						</div>
+						<div class="tiltview col">
+							<img src="img/waves/Alaap_1.jpg"/>
+						</div>
+					</li>
+					<li>
+						<div class="description">
+							<h2>Solonote</h2>
+							<p>Your fingers make an instrument speak, speak beautifully. Make it talk to us as well. At the Waves instrumental music event, bring the best you have to battke it out for the ultimate prize.</p>
+							<div class="remodal-bg">
+  								<a data-remodal-target="modal4" href="#" id="click"> Rules</a><br>
+							<div class="remodal" data-remodal-id="modal4" data-remodal-options="hashTracking: false" role="dialog" aria-labelledby="modal1Title" aria-describedby="modal1Desc" id="modal-music">
+  								<button data-remodal-action="close" class="remodal-close" aria-label="Close"></button>
+ 								 <div>
+ 								 	<h2 class="Title_rules">Solonote Rules<br><br></h2>
+ 								 	<p id="constant"><strong>Category:</strong>Silver<br><br>
+									<strong>Team composition:</strong> 1 member<br><br>
+									<strong>Teams per college:</strong> Unlimited<br><br>
+									<strong>Registration:</strong> Online/On the spot<br><br>
+									<strong>Time limit:</strong> 6 minutes<br><br></p>
+									<p>
+									<ul class="list">
+										<p class="subheading">General Rules:</p><br>
+										<li class="general_rules">There will be two categories: Melody instruments and Percussion instruments</li><br>
+										<li class="general_rules">Participants are allowed to use ONLY ONE instrument to play anything of their choice</li><br>
+										<li class="general_rules">No electric instruments are allowed, except for Keyboard in Piano tone</li><br>
+										<li class="general_rules">The time limit for this round is 6 minutes, including setup time</li><br>
+										<li class="general_rules">For every extra minute taken beyond the time limit, 5% of the total marks shall be deducted</li><br>
+										<li class="general_rules"> Availability of the following instruments is assured (if required): A Keyboard (in Piano tone), Acoustic Guitar, Tabla, Congo and Drum Set</li><br>
+										<li class="general_rules">The first part will be a solo performance and then the winner of each category will be decided by a face-off</li><br>
+										<li class="general_rules">50% marks of the solo performance will be carried over to the face-off round</li><br>
+										<li class="general_rules">If there is only one participant for an instrument, a normalization process will be followed to decide if that instrumentalist qualifies for the faceoff round</li><br>
+										<li class="general_rules">Rules for face-off (percussion and melody instruments) are as follows:<br><br>1. First, the highest scores for each individual instrument will be declared in both the categories.<br><br>2. As a final face off, for the percussions category, each selected participant will be given a melody track to play on, and vice versa.<br><br>3. The melody track or the percussion track will be same for every participant in the respective categories<br><br>4. In this way, the judges will come down to one winner in each category</li>
+									</ul>
+									<br><br><a id="click2" href="../../registration/registration.html">Register</a>
+								</p>
+								</div>
+							</div>
+							</div>
+						</div>
+						<div class="tiltview col">
+							
+							<img src="img/waves/solo_note_1.jpg"/>
+						</div>
+					</li>
+					<li>
+						<div class="description">
+							<h2>Alaap</h2>
+							<p>Classical music posses a divinity of its own. It is ethnic to the very core. To people who worship this art, Alaap, the Waves classical music event is the place to be.Scanning through a plethora of singers in both Carnatic and Hindustani, we aim to find the best. Do you have what it takes to be that best?</p>
+							<div class="remodal-bg">
+  								<a data-remodal-target="modal5" href="#" id="click">Rules</a><br>
+							<div class="remodal" data-remodal-id="modal5" data-remodal-options="hashTracking: false" role="dialog" aria-labelledby="modal1Title" aria-describedby="modal1Desc" id="modal-music">
+  								<button data-remodal-action="close" class="remodal-close" aria-label="Close"></button>
+ 								 <div>
+ 								 	<h2 class="Title_rules">Alaap Rules<br><br></h2>
+ 								 	<p id="constant"><strong>Category:</strong>Bronze<br><br>
+									<strong>Team composition:</strong> 1 member<br><br>
+									<strong>Teams per college:</strong> Unlimited<br><br>
+									<strong>Registration:</strong> Online/On the spot<br><br>
+									<strong>Time limit:</strong> 8 minutes<br><br></p>
+									<p>
+									<ul class="list">
+									<p class="subheading">General Rules:</p><br>
+									<li class="general_rules">This event tests the skills of the participants in Indian classical music</li><br>
+									<li class="general_rules">It is a solo vocal competition and will be conducted in two categories, Carnatic and Hindustani</li><br>
+									<li class="general_rules">The participants may bring their own accompaniments/accompanists</li><br>
+									<li class="general_rules">No accompaniments will be provided</li><br>
+									<li class="general_rules">Bonus marks will be awarded for extempore singing at the discretion of the judges</li><br>
+									<li class="general_rules">The time limit for this round is 8 minutes, including setup time</li><br>
+									<li class="general_rules">Every extra minute taken beyond the specified time limit will lead to reduction of 5% of the total marks scored</li><br>
+									<li class="general_rules">Judging criteria include:<br><br>1. Improvisation<br>2. Authenticity<br>3. Overall Performance<br>4. Sur<br>5. Taal<br>6. Raag Varnan<br>7. Pakad<br>8. Swar Sankalp</li>
+									</ul>
+									<br><br><a id="click2" href="../../registration/registration.html">Register</a>
+									</p>
+								</div>
+							</div>
+							</div>
+						</div>
+						<div class="tiltview col">	
+							<img src="img/waves/Jukebox_2.jpg"/>
+						
+						</div>
+					</li>
+				</ol>
+			</div><!-- /slideshow -->
+		</div><!-- /container -->
+		<!--</div>-->
+		<div class="section" id="dance">
+    		<div class="slideshow" id="slideshow2">
+				<ol class="slides">
+					<li class="current">
+						<div class="description">
+							<h2>Sizzle</h2>
+							<p>If your feet can set the stage on fire, if your moves can astound crowds, if you think you are the complete performer, then Waves beckons you. This grueling multi round dance competition has embarked on the search for the foremost dancer there is.Let your dance speak for itself as you “Sizzle” because all you need is nothing short of extraordinary.</p>
+							<div class="remodal-bg">
+  								<a data-remodal-target="modal6" href="#" id="click">Rules</a><br>
+							<div class="remodal"  data-remodal-options="hashTracking: false" data-remodal-id="modal6" role="dialog" aria-labelledby="modal1Title" aria-describedby="modal1Desc" id="modal-dance">
+  								<button data-remodal-action="close" class="remodal-close" aria-label="Close"></button>
+ 								 <div>
+    								<h2 class="Title_rules">Sizzle Rules<br><br></h2>
+   									 <p id="constant"><strong>Category:</strong>Gold<br><br>
+									<strong>Team composition:</strong> 1 member<br><br>
+									<strong>Teams per college:</strong> Unlimited<br><br>
+									<strong>Registration:</strong> Online/On the spot<br><br>
+									<strong>Time limit:</strong><br><br>
+									&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>Eliminations:</strong> 2-3 minutes<br><br>
+									&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>Finals:</strong> 3-5 minutes<br><br></p>
+									<p>
+									<ul class="list">
+										<p class="subheading">General Rules:</p><br>
+										<li class="general_rules">No classical dance forms are allowed</li><br>
+										<li class="general_rules">The soundtracks of the prepared sequences must be submitted to the event manager in a pen drive, prior to the event<br><br></li>
+									</ul>
+									<ul class="list">
+										<p class="subheading">Elimination Round:</p><br>
+										<li class="general_rules">Participants will be required to perform a 2 minute sequence out of their prepared 3-5 minutes set</li><br>
+										<li class="general_rules">The elimination round is not open to watch, and will be held in a closed room. Only the judging panel will be viewing the performances</li><br>
+										<li class="general_rules">Use of props is not allowed<br><br></li>
+									</ul>
+									<ul class="list">
+										<p class="subheading">Final Round 1:</p><br>
+										<li class="general_rules">Participants will be required to perform their entire prepared set of 3-5 minutes</li><br>
+										<li class="general_rules">A negative marking of 5% of the total score will be awarded for each minute of exceeding the time limit</li><br>
+										<li class="general_rules">12 participants will move from Round 1 to Round 2 of the finals<br><br></li>
+									</ul>
+									<ul class="list">
+										<p class="subheading">Final Round 2:</p><br>
+										<li class="general_rules">This is a theme/prop round </li><br>
+										<li class="general_rules">Participants will be divided into groups of 3</li><br>
+										<li class="general_rules">One group will perform at a time,where all 3 participants in that group dance simultaneously on a tune provided to them</li><br>
+										<li class="general_rules">Each participant in the group has to perform within a given area on the stage. Each area corresponds to a particular theme/prop, and the participant will have to stick to the theme/prop assigned to him/her</li><br>
+										<li class="general_rules">At the signal of the judges, positions will be shuffled and the participants will have to continue in a new area with a new theme/prop</li><br>
+										<li class="general_rules">Each group will be shuffled thrice so that all participants in the same group get to use all three themes/props</li><br>
+										<li class="general_rules">If a participant steps out of the area, he/she shall be warned once. If the offence is repeated, the participant will be eliminated immediately</li><br>
+										<li class="general_rules">Top 2 performers in each group will move to the next round <br><br></li>
+									</ul>
+									<ul class="list">
+										<p class="subheading">Final Round 3:</p><br>
+										<li class="general_rules">This is a round of footloose </li><br>
+										<li class="general_rules">Two participants will be called on stage simultaneously. The first participant dances to a song played on the spot while the other will stay still</li><br>
+										<li class="general_rules">At the signal of the judges, the first participant will stop and the second participant will immediately begin dancing to the continuation of the same song</li><br>
+										<li class="general_rules">The process will be repeated every time the song is changed. The starting sequence for each song will be performed by participants 1 and 2 alternately</li><br>
+										<li class="general_rules">In this way, the song will be changed several times while the participants dance in an alternating manner</li><br>
+									</ul>
+									<br><br><a id="click2" href="../../registration/registration.html">Register</a>
+									</p>
+								</div>
+							</div>
+							</div>
+						</div>
+						<div class="tiltview col">
+								
+							<img src="img/waves/sizzle.jpg"/>
+						</div>
+					</li>
+					<li>
+						<div class="description">
+							<h2>Dhinchak</h2>
+							<p>Because at the end of the day when you have to lose it all and dance, Bollywood is your rescue. Get your grooves right in this group bollywood dance event.Entertainment quoitents will peak at this wonderfully colourful event. Are you ready enough? </p>
+							<div class="remodal-bg">
+  								<a data-remodal-target="modal7" href="#" id="click">Rules</a><br>
+							<div class="remodal"  data-remodal-options="hashTracking: false" data-remodal-id="modal7" role="dialog" aria-labelledby="modal1Title" aria-describedby="modal1Desc" id="modal-dance">
+  								<button data-remodal-action="close" class="remodal-close" aria-label="Close"></button>
+ 								 <div>
+    								<h2 class="Title_rules">Dhinchak Rules<br><br></h2>
+   									 <p id="constant"><strong>Category:</strong>Gold<br><br>
+									<strong>Team composition:</strong> 6 -12 members +3 (backstage)<br><br>
+									<strong>Teams per college:</strong> Unlimited<br><br>
+									<strong>Registration:</strong> Online/On the spot<br><br>
+									<strong>Time limit:</strong> 4-6 minutes<br><br></p>
+									<p>
+									<ul class="list">
+										<p class="subheading">General Rules:</p><br>
+										<li class="general_rules">A minimum of 6 dancers are required to be present on the stage at all times</li><br>
+										<li class="general_rules">Usage of props is allowed.However, this does not fetch any additional points</li><br>
+										<li class="general_rules">The Organizing Committee must be notified of the same at least 1 day prior to the performance by sending a mail to events@bits-waves.org </li><br>
+										<li class="general_rules">The subject of the mail should be “Request to use props for Dhinchak”</li><br>
+										<li class="general_rules">For the teams who register on-spot, permission to use props will be at the discretion of the Event Manager</li><br>
+										<li class="general_rules">Usage of any powdered substance(e.g. colour, powder, gulaal etc.) has to be informed to the event manager in advance</li><br>
+										<li class="general_rules">No lead dancer or solo performance is allowed in any of the rounds</li><br>
+										<li class="general_rules">Sound track for the group’s performance should be brought along in a pen drive and submitted at the time of registration</li><br>
+										<li class="general_rules">Participating teams can only use Bollywood songs and their remixes for the track. Failure to comply with this will lead to immediate disqualification<br><br> </li>
+									</ul>
+									<ul class="list">
+										<p class="subheading">Elimination Round:</p><br>
+										<li class="general_rules">Participants will be required to perform a prepared dance sequence.The duration of this performance will be 4-6 minutes</li><br>
+										<li class="general_rules">A negative marking of 5% of the total score will be awarded for each minute of exceeding the time limit</li><br>
+										<li class="general_rules">The elimination round is not open to watch, and will be held in a closed room. Only the judging panel will be viewing the team’s performance<br><br></li>
+									</ul>
+									<ul class="list">
+										<p class="subheading">Final Round:</p><br>
+										<li class="general_rules">The teams who qualify for the final will have to perform the same dance sequence as the elimination round</li><br>
+										<li class="general_rules">The final round will be held in the auditorium in front of a live audience</li><br>
+										<li class="general_rules">Rules and guidelines for this performance will be same as those for the elimination round</li><br>
+										<li class="general_rules">The auditorium screen shall not be used for any purpose (photos,videos, etc.)</li><br>
+										<li class="general_rules">Teams are not allowed to use any external lighting for their performance</li><br>
+										<li class="general_rules">A tiebreaker round might be introduced after the eliminations, if only found necessary by the judges and the event managers. The rules for the tie breaker (if necessary) will be disclosed at the end of the elimination round.Hence, at least one member from every group must stay back till the result of the elimination round is announced</li>
+									</ul>
+									<br><br><a id="click2" href="../../registration/registration.html">Register</a>
+									</p>
+								</div>
+							</div>
+							</div>
+						</div>
+						<div class="tiltview col">
+							
+							<img src="img/waves/Dhinchak.jpg"/>
+						</div>
+					</li>
+					<li>
+						<div class="description">
+							<h2>Jumelè</h2>
+							<p>It takes two to tango. This all that the Waves duet dance event is about.Sizzling chemistry, tantalizing moves are sure to set the stage ablaze as pairs will fiercely compete against each other for the title to the ultimate duo.</p>
+							<div class="remodal-bg">
+  								<a data-remodal-target="modal8" href="#" id="click">Rules</a><br>
+							<div class="remodal"  data-remodal-options="hashTracking: false" data-remodal-id="modal8" role="dialog" aria-labelledby="modal1Title" aria-describedby="modal1Desc" id="modal-dance">
+  								<button data-remodal-action="close" class="remodal-close" aria-label="Close"></button>
+ 								 <div>
+    								<h2 class="Title_rules">Jumelè Rules<br><br></h2>
+   									 <p id="constant"><strong>Category:</strong>Silver<br><br>
+									<strong>Team composition:</strong> 2 members <br><br>
+									<strong>Teams per college:</strong> Unlimited<br><br>
+									<strong>Registration:</strong> Online/On the spot<br><br>
+									<strong>Time limit:</strong> 3-5 minutes<br><br></p>
+									<p>
+									<ul class="list">
+										<p class="subheading">General Rules:</p><br>
+										<li class="general_rules">A team can strictly comprise of a couple – 1 boy and 1 girl</li><br>
+										<li class="general_rules">The following styles will not be permitted:<br> o Indian classical <br>o Bollywood <br> o Semi classical</li><br>
+										<li class="general_rules">Usage of props is allowed.However, this does not fetch any additional points</li><br>
+										<li class="general_rules">The Organizing Committee must be notified of the same at least 1 day prior to the performance by sending a mail to events@bits-waves.org </li><br>
+										<li class="general_rules">The subject of the mail should be “Request to use props for Jumelé”</li><br>
+										<li class="general_rules">For the teams who register on-spot,permission to use props will be at the discretion of the Event Manager<br><br></li>
+									</ul>
+									<ul class="list">
+										<p class="subheading">Elimination Round:</p><br>
+										<li class="general_rules">A 3-5 minute long prepared dance sequence has to be performed by the participants.</li><br>
+										<li class="general_rules">This round of the event will be held behind closed doors, before the judges only</li><br>
+										<li class="general_rules">The time slots allotted to participants in the elimination round might be decreased depending on the participation in the event.Participants are advised to prepare their sequences accordingly<br><br></li>
+									</ul>
+									<ul class="list">
+										<p class="subheading">Final Round:</p><br>
+										<li class="general_rules">The same prepared sequence is to be performed on-stage, in front of a live audience</li><br>
+										<li class="general_rules">The rules for this round would be the same as those for the elimination round</li>
+									</ul>
+									<br><br><a id="click2" href="../../registration/registration.html">Register</a>
+									</p>
+								</div>
+							</div>
+							</div>
+						</div>
+						<div class="tiltview col">
+							
+							<img src="img/waves/Jumele_3.jpg"/>
+						</div>
+					</li>
+				</ol>
+			</div><!-- /slideshow -->
+    	</div>
+    	<div class="section" id="drama">
+    		<div class="slideshow" id="slideshow3">
+				<ol class="slides">
+					<li class="current">
+						<div class="description">
+							<h2>Rangmanch</h2>
+							<p>Think you can make the stage come alive with your powerful acting and intriguing script? Rangmanch promises to be that stage and much more. That acting bug gnawing you, let it loose. Let Waves be your audience.</p>
+							<div class="remodal-bg">
+  								<a data-remodal-target="modal9" href="#" id="click">Rules</a><br>
+							<div class="remodal"  data-remodal-options="hashTracking: false" data-remodal-id="modal9" role="dialog" aria-labelledby="modal1Title" aria-describedby="modal1Desc" id="modal-drama">
+  								<button data-remodal-action="close" class="remodal-close" aria-label="Close"></button>
+ 								 <div>
+    								<h2 class="Title_rules">Rangmanch Rules<br><br></h2>
+   									 <p id="constant"><strong>Category:</strong>Gold<br><br>
+									<strong>Team composition:</strong> 2-8 members + 4 (backstage)<br><br>
+									<strong>Teams per college:</strong> Unlimited<br><br>
+									<strong>Registration:</strong> Online/On the spot<br><br>
+									<strong>Time limit:</strong><br><br>
+									&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>Eliminations:</strong> 10-12 minutes<br><br>
+									&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>Finals:</strong> 40-60 minutes<br><br></p>
+									<p>
+									<ul class="list">
+										<p class="subheading" >General Rules:</p><br>
+										<li class="general_rules">The team must perform a stage play of one or more acts</li><br>
+										<li class="general_rules">No vulgarity or controversial issues should be raised during the play</li><br>
+										<li class="general_rules">The play must only be in English/Hindi</li><br>
+										<li class="general_rules">Teams are advised to minimize their usage of props. Only tables and chairs will be provided by organisers</li><br>
+										<li class="general_rules">Sound can be provided only through sound clips, which should be made available on a pen drive well before the event. No arrangements will be made for live music</li><br>
+										<li class="general_rules">A total of up to four members from a team are allowed to work backstage,with a maximum of one participant working with each of sound and lights. The other two members may work on stage setup and help with other incidental needs on stage</li><br>
+										<li class="general_rules">The number of participants entering the final round will be decided on the basis of the number of entries, on fest<br><br></li>
+									</ul>
+									<ul class="list">
+										<p class="subheading">Registration:</p><br>
+										<li class="general_rules">Once registered, teams should email a copy of their script (full play not teaser) to events@bits-waves.org, with the subject “Script for Rangmanch at Waves – 2015”</li><br>
+										<li class="general_rules">The email should also mention the approximate duration of the performance, as well as a list of props used</li><br>
+										<li class="general_rules">No team will be considered for the event without the submission of the script. </li><br>
+										<li class="general_rules">The deadline for script submission is 10th October, 2015<br><br></li>
+									</ul>
+									<ul class="list">
+										<p class="subheading">Elimination Round:</p><br>
+										<li class="general_rules">A summary of the play or a relevant part, bringing out the essence of the play must be performed</li><br>
+										<li class="general_rules">The duration of the performance should not exceed 10 – 12 minutes, including the stage setup and clearance time</li><br>
+										<li class="general_rules">2 minutes shall be allotted to each team for technical check</li><br>
+										<li class="general_rules">A negative marking of 5% of the total score will be awarded for each minute of exceeding the time limit<br><br></li>
+									</ul>
+									<ul class="list">
+										<p class="subheading">Final Round:</p><br>
+										<li class="general_rules">The extended version of the play performed in the eliminations must be performed</li><br>
+										<li class="general_rules">The duration of the performance should not exceed 40 – 60 minutes, including the stage setup and clearance time</li><br>
+										<li class="general_rules">2 minutes shall be allotted to each team for technical check</li><br>
+										<li class="general_rules">A negative marking of 5% of the total score will be awarded for each minute of exceeding the time limit</li>
+										
+									</ul>
+									<br><br><a id="click2" href="../../registration/registration.html">Register</a>
+									</p>
+								</div>
+							</div>
+							</div>
+						</div>
+						<div class="tiltview col">
+								
+							<img src="img/waves/Rangmanch_2.jpg"/>
+						</div>
+					</li>
+					<li>
+						<div class="description">
+							<h2>Nukkad Natak</h2>
+							<p>Socials issues need to brought out to the masses. Let you play be the medium for the spark to ignite bigger changes. Rebel through your art, for what’s right.Nukkad Natak at Waves, which aims to do precisely the same. Come, take your stage. </p>
+							<div class="remodal-bg">
+  								<a data-remodal-target="modal9" href="#" id="click">Rules</a><br>
+							<div class="remodal"  data-remodal-options="hashTracking: false" data-remodal-id="modal9" role="dialog" aria-labelledby="modal1Title" aria-describedby="modal1Desc" id="modal-drama">
+  								<button data-remodal-action="close" class="remodal-close" aria-label="Close"></button>
+ 								 <div>
+    								<h2 class="Title_rules">Nukkad Natak Rules<br><br></h2>
+   									 <p id="constant"><strong>Category:</strong>Gold<br><br>
+									<strong>Team composition:</strong> 8 - 20 members <br><br>
+									<strong>Teams per college:</strong> Unlimited<br><br>
+									<strong>Registration:</strong> Online/On the spot<br><br>
+									<strong>Time limit:</strong> 20 minutes<br><br></p>
+									<p>
+									<ul class="list">
+										<p class="subheading">General Rules:</p><br>
+										<li class="general_rules">The play should contain a social message</li><br>
+										<li class="general_rules">No pre-recorded voices or music is allowed</li><br>
+										<li class="general_rules">The play must only be in English/Hindi</li><br>
+										<li class="general_rules">Teams are advised to minimize their usage of props. However, there is no upper limit on the same</li><br>
+										<li class="general_rules">The organisers are not liable to procure any props for the participants. The teams are expected to carry their own props<br><br></li>
+									</ul>
+									<ul class="list">
+										<p class="subheading">Elimination Round:</p><br>
+										<li class="general_rules">The team is expected to perform the entire play in the elimination round</li><br>
+										<li class="general_rules">The duration of the performance should not exceed 20 minutes</li><br>
+										<li class="general_rules">A negative marking of 5% of the total score will be awarded for each minute of exceeding the time limit</li><br>
+										<li class="general_rules">Vulgarity shall result in deduction of points<br><br></li>
+									</ul>
+									<ul class="list">
+										<p class="subheading">Final Round:</p><br>
+										<li class="general_rules">This round will be conducted on the streets</li><br>
+										<li class="general_rules">The rules for the final round are the same as that of the eliminations</li>
+									</ul>
+									<br><br><a id="click2" href="../../registration/registration.html">Register</a>
+									</p>
+								</div>
+							</div>
+							</div>
+						</div>
+						<div class="tiltview row">
+							
+							<img src="img/waves/nukkad_natak_2.jpg"/>
+						</div>
+					</li>
+					<li>
+						<div class="description">
+							<h2>Skime</h2>
+							<p>Actions speak louder than words. Sometimes words fall short of expressing emotions. Express and impress through actions and expressions at the Waves mime event. Let the stage do your talking.</p>
+							<div class="remodal-bg">
+  								<a data-remodal-target="modal11" href="#" id="click">Rules</a><br>
+							<div class="remodal"  data-remodal-options="hashTracking: false" data-remodal-id="modal11" role="dialog" aria-labelledby="modal1Title" aria-describedby="modal1Desc" id="modal-drama">
+  								<button data-remodal-action="close" class="remodal-close" aria-label="Close"></button>
+ 								 <div>
+    								<h2 class="Title_rules">Skime Rules<br><br></h2>
+   									 <p id="constant"><strong>Category:</strong>Silver<br><br>
+									<strong>Team composition:</strong> 6 - 8 members + 2(backstage) <br><br>
+									<strong>Teams per college:</strong> Unlimited<br><br>
+									<strong>Registration:</strong> Online/On the spot<br><br>
+									<strong>Time limit:</strong> 8 - 10 minutes<br><br></p>
+									<p>
+									<ul class="list">
+										<p class="subheading">General Rules:</p><br>
+										<li class="general_rules">Skime is not conventional mime. No other rules of conventional mime need to be followed</li><br>
+										<li class="general_rules">No recognisable human voices and dialogues can be used by the participants</li><br>
+										<li class="general_rules">Sounds like those of dog barks, etc. can are allowed</li><br>
+										<li class="general_rules">Use of a synthesizer or any other musical instrument is allowed</li><br>
+										<li class="general_rules">Human voices as a part of the background track are permitted</li><br>
+										<li class="general_rules">There are no restrictions on the costumes to be used</li><br>
+										<li class="general_rules">Use of costumes of different kind, apart from the general costume of the participants, shall also be considered as props. </li><br>
+										<li class="general_rules">Each different kind of costume shall be considered as a prop</li><br>
+										<li class="general_rules">Variety in colours of the same kind of costume is not considered as an additional prop</li><br>
+										<li class="general_rules">Any sort of vulgarity will lead to disqualification<br><br></li>
+									</ul>
+									<ul class="list">
+										<p class="subheading">Event Rules:</p><br>
+										<li class="general_rules">A maximum of 8 members are allowed to perform in the event</li><br>
+										<li class="general_rules">2 other members need to be off stage </li><br>
+										<li class="general_rules">The duration of the performance should not exceed 8 – 10 minutes</li><br>
+										<li class="general_rules">A negative marking of 5% of the total score will be awarded for each minute of exceeding the time limit</li><br>
+										<li class="general_rules">The teams may use movie songs/tunes and slideshows to support their plot</li><br>
+										<li class="general_rules">All the various background tracks and slides need to be made available in a pen drive before the event begins<br><br></li>
+									</ul>
+									<ul class="list">
+										<p class="subheading">Reference:</p><br>
+										<li class="general_rules">Below are a few links of Skimes performed by Mime Club of Bits Goa to give you a better idea about Skime<br><a href="http://www.youtube.com/watch?v=ZQY_zjnuN0Y">http://www.youtube.com/watch?v=ZQY_zjnuN0Y</a><br><a href="http://www.youtube.com/watch?v=v4eNNOA82sw">http://www.youtube.com/watch?v=v4eNNOA82sw</a><br><a href="http://www.youtube.com/watch?v=IDTRrfsPYME">http://www.youtube.com/watch?v=IDTRrfsPYME</a></li>
+									</ul>
+									<br><br><a id="click2" href="../../registration/registration.html">Register</a>
+									</p>
+								</div>
+							</div>
+							</div>
+						</div>
+						<div class="tiltview col">
+							
+							<img src="img/waves/Skime.jpg"/>
+						</div>
+					</li>
+				</ol>
+			</div><!-- /slideshow -->
+    	</div>
+    	<div class="section" id="film">
+    		<div class="slideshow" id="slideshow4">
+				<ol class="slides">
+					<li class="current">
+						<div class="description">
+							<h2>Montage</h2>
+							<p>Films have since time immemorial been a medium of expressing ideas,thoughts and visions. Have what it takes to impress us with your filmmaking skills? Give us a glimpse at Montage, the Waves short film making event. Bow to that flame inside you and deliver a masterpiece.</p>
+							<div class="remodal-bg">
+  								<a data-remodal-target="modal12" href="#" id="click">Rules</a><br>
+							<div class="remodal"  data-remodal-options="hashTracking: false" data-remodal-id="modal12" role="dialog" aria-labelledby="modal1Title" aria-describedby="modal1Desc" id="modal-film">
+  								<button data-remodal-action="close" class="remodal-close" aria-label="Close"></button>
+ 								 <div >
+    								<h2 class="Title_rules">Montage Rules<br><br></h2>
+   									 <p id="constant"><strong>Category:</strong>Gold<br><br>
+									<strong>Team composition:</strong> 4 members <br><br>
+									<strong>Teams per college:</strong> Unlimited<br><br>
+									<strong>Registration:</strong> Online/On the spot<br><br>
+									<strong>Time limit:</strong><br><br>
+									&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>Round 1:</strong> 2-4 minutes<br><br>
+									&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>Round 2:</strong> 5-8 minutes<br><br></p>
+									<p>
+									<ul class="list">
+										<p class="subheading">General Rules:</p><br>
+										<li class="general_rules">The maximum number of members in a team (excluding the cast) is 4</li><br>
+										<li class="general_rules">Proper credits must be given to all the people contributing towards making the video</li><br>
+										<li class="general_rules">Credits are not included in the time limit </li><br>
+										<li class="general_rules">All entries must be completely original and independently produced. The participants are responsible for any third-party copyright infringement</li><br>
+										<li class="general_rules">Exhibiting pornography, nudity and/or excessive violence is strictly prohibited and will lead to disqualification from the event</li><br>
+										<li class="general_rules">The use of expensive cameras, lighting and other such equipment will not fetch any additional points to the teams</li><br>
+										<li class="general_rules">Videos shot using Digicams/Handycams/DSLRs/Mobile Phones are allowed</li><br>
+										<li class="general_rules">The participants have to send the letter for distribution rights to the organizers.The letter should be mailed to events@bits-waves.org, along with the entries </li><br>
+										<li class="general_rules">The videos must showcase skills in direction, editing, acting,cinematography, creativity (in terms of idea) and script writing. Use of special effects/animation will not fetch any additional points</li><br>
+										<li class="general_rules">Judging Criteria:<br><br>1. Originality of the idea<br>2. Creativity in the idea<br>3. Direction<br>4. Acting<br>5. Cinematography<br>6. Editing<br>7. Audio<br>8. Title or Tag line associated with the video<br><br></li>
+									</ul>
+									<ul class="list">
+										<p class="subheading">Elimination Round:</p><br>
+										<li class="general_rules">The maximum duration for any entry for the first round is 2 – 4 minutes</li><br>
+										<li class="general_rules">For this round, participants need to make advertising videos that endorse particular product(s) of any brand**</li><br>
+										<li class="general_rules">The participants need to come up with a tagline for the product. Use of the old or prevailing taglines will have a negative impact on their respective scores</li><br>
+										<li class="general_rules">Participants should send the videos to events@bits-waves.org on or before 30th September, 2015</li><br>
+										<li class="general_rules">The video can be uploaded on Google Drive and a link to the same can be shared </li><br>
+										<li class="general_rules">Each entry must be sent along with a brief abstract not exceeding 150 words explaining the idea and purpose of their video. Entries can be mailed to events@bits-waves.org in a Doc/PDF format</li><br>
+										<li class="general_rules">The deadline for submission of Round 1 entries is 30th September, 2015</li><br>
+										<p class="conditions">**The participants will be allotted the brand(s) they need to focus on by the 31st of August, 2015, through an email.</p><br><br>
+									</ul>
+									<ul class="list">
+										<p class="subheading">Final Round:</p><br>
+									<li class="general_rules"> This is an on fest round. The selected teams will have to come to BITS Pilani K.K.Birla Goa Campus to shoot their videos for this round</li><br>
+									<li class="general_rules">This will be a theme-based round. The theme will be announced a few days before the fest so that the participants can prepare the script and complete the pre- production phase for their videos</li><br>
+									<li class="general_rules">The duration of videos for this round should be from 5 to 8 minutes</li>
+									</ul>
+									<br><br><a id="click2" href="../../registration/registration.html">Register</a>
+									</p>
+								</div>
+							</div>
+							</div>
+						</div>
+						<div class="tiltview col">
+								
+							<img src="img/waves/montage.jpg"/>
+						</div>
+					</li>
+					<li>
+						<div class="description">
+							<h2>Mezzotint</h2>
+							<p>A film calls for inspiration. Let the picturesque campus of BITS Pilani, Goa campus be your muse. Tell us your story of our campus in this filmmaking event. </p>
+							<div class="remodal-bg">
+  								<a data-remodal-target="modal13" href="#" id="click">Rules</a><br>
+							<div class="remodal"  data-remodal-options="hashTracking: false" data-remodal-id="modal13" role="dialog" aria-labelledby="modal1Title" aria-describedby="modal1Desc" id="modal-film">
+  								<button data-remodal-action="close" class="remodal-close" aria-label="Close"></button>
+ 								 <div>
+    								<h2 class="Title_rules">Mezzotint Rules<br><br></h2>
+   									 <p id="constant"><strong>Category:</strong>Silver<br><br>
+									<strong>Team composition:</strong> 2 members <br><br>
+									<strong>Teams per college:</strong> Unlimited<br><br>
+									<strong>Registration:</strong> Online/On the spot<br><br></p>
+									<p>
+									<ul class="list">
+										<p class="subheading">General Rules:</p><br>
+										<li class="general_rules">Participants can use cameras/any other devices to click the photographs</li><br>
+										<li class="general_rules">The photographs should be submitted in digital formats, such as .jpeg , .gif and others </li><br>
+										<li class="general_rules"> Editing and post-processing of images is acceptable</li><br>
+										<li class="general_rules">Sharing of pictures between the teams is strictly not allowed</li><br>
+										<li class="general_rules">Photos should have to be clear to the judge. They should be provided with an apt tagline and a brief summary not exceeding more than 50 words</li><br>
+										<li class="general_rules">Judging Criteria:<br><br>1. Picture quality<br>2. Idea(s) behind the picture<br>3. Tagline given<br>4. Validity regarding the theme<br>5. Details in the image</li><br><br>
+									</ul>
+									<ul class="list">
+										<p class="subheading">Elimination Round:</p><br>
+										<li class="general_rules">This round is a theme-based round. All the entries submitted must reflect the main theme of Waves 2015 – Escape Reality</li><br>
+										<li class="general_rules">The competition will start on 15th September, 2015 and entries will be accepted till 30th September, 2015</li><br>
+										<li class="general_rules">Participants will have to submit the photos along with a brief summary in not more than 50 words explaining the idea behind the submissions. Submissions need to be mailed at events@bits-waves.org </li><br>
+										<li class="general_rules">Selection for the next round will be based on the photos submitted. Also,the best entries will be given a display during Waves 2015<br><br> </li>
+									</ul>
+									<ul class="list">
+										<p class="subheading">Final Round:</p><br>
+										<li class="general_rules">This will also be a theme-based photography round. The round will be held during Waves, and participants will have to report to BITS Pilani, K.K.Birla Goa Campus before November 6th</li><br>
+										<li class="general_rules">The selected participants will be provided with the other details of the event during registration</li>
+									</ul>
+									<br><br><a id="click2" href="../../registration/registration.html">Register</a>
+									</p>
+								</div>
+							</div>
+							</div>
+						</div>
+						<div class="tiltview col">
+							<img src="img/waves/bitsg2.jpg"/>
+						</div>
+					</li>
+					<li>
+						<div class="description">
+							<h2>Reverse Flash</h2>
+							<p>Are you up for a challenge? Willing to encounter something new? Creativity hits an all new high in this event where you need to shoot your film in reverse.Sounds familiar? *hint Nolan*</p>
+							<div class="remodal-bg">
+  								<a data-remodal-target="modal14" href="#" id="click">Rules</a><br>
+							<div class="remodal"  data-remodal-options="hashTracking: false" data-remodal-id="modal14" role="dialog" aria-labelledby="modal1Title" aria-describedby="modal1Desc" id="modal-film">
+  								<button data-remodal-action="close" class="remodal-close" aria-label="Close" ></button>
+ 								 <div>
+    								<h2 class="Title_rules">Reverse Flash Rules<br><br></h2>
+   									<p id="constant"><strong>Category:</strong>Silver<br><br>
+   									<strong>Team composition:</strong> 4 members <br><br>
+									<strong>Teams per college:</strong> Unlimited<br><br>
+									<strong>Registration:</strong> Online/On the spot<br><br>
+									<strong>Time Limit:</strong> 3-20 minutes<br><br></p>
+									<p>
+									<ul class="list">
+										<p class="subheading">General Rules:</p><br>
+										<li class="general_rules">This is a video-making event where participants will have to submit entries based on the concept of reverse filmmaking. Films must portray the events in a reverse narrative, i.e. from the end to the start</li><br>
+										<li class="general_rules">The maximum number of members in a team (excluding the cast) is 4</li><br>
+										<li class="general_rules">The minimum duration of each entry is 3 minutes and the maximum duration is 20 minutes</li><br>
+										<li class="general_rules">Exceeding the specified time duration will result in a deduction of points</li><br>
+										<li class="general_rules">Credits are not included in the time limit</li><br>
+										<li class="general_rules">Participants should send the videos to events@bits-waves.org on or before 30th September, 2015</li><br>
+										<li class="general_rules">The video can be uploaded on Google Drive and a link to the same can be shared</li><br>
+										<li class="general_rules">Complete creative freedom is granted to the participating teams.</li><br>
+										<li class="general_rules">Entries must be original and participating teams shall be responsible for any thirdparty copyright infringement</li><br>
+										<li class="general_rules">Films must showcase the skills in direction,editing, acting, cinematography and script writing</li><br>
+										<li class="general_rules">Participating teams can employ any of the 2 directional methods as suggested:<br><br>1. The Scientist, by Coldplay: Involves shooting the video normally and then reversing it. Teams will have to take care of phonetics and audio, in case there are dialogues.<br><br>2. Memento, by Christopher Nolan:Involves shooting the film in reverse order. The events that are near the end of the story will come before the events that are at the beginning of the story</li>
+									</ul>
+									<br><br><a id="click2" href="../../registration/registration.html">Register</a>
+									</p>
+								</div>
+							</div>
+							</div>
+						</div>
+						<div class="tiltview col">
+							
+							<img src="img/waves/momento.jpg"/>
+						</div>
+					</li>
+					<li>
+						<div class="description">
+							<h2>Time Lapse</h2>
+							<p>A picture speaks a thousand words. Imagine how much a series of photographs would speak? This unique event calls for a film to be made entirely out of photographs. Sounds fun? Show us your abilities at Time Lapse.</p>
+							<div class="remodal-bg">
+  								<a data-remodal-target="modal15" href="#" id="click">Rules</a><br>
+							<div class="remodal"  data-remodal-options="hashTracking: false" data-remodal-id="modal15" role="dialog" aria-labelledby="modal1Title" aria-describedby="modal1Desc" id="modal-film">
+  								<button data-remodal-action="close" class="remodal-close" aria-label="Close" ></button>
+ 								 <div>
+    								<h2 class="Title_rules">Time Lapse Rules<br><br></h2>
+   									<p id="constant"><strong>Category:</strong>Bronze<br><br>
+   									<strong>Team composition:</strong> 1 member <br><br>
+									<strong>Teams per college:</strong> Unlimited<br><br>
+									<strong>Registration:</strong> Online/On the spot<br><br>
+									<strong>Time limit:</strong><br><br>
+									&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>Round 1:</strong> 5-7 minutes<br><br>
+									&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>Round 2:</strong> 3-5 minutes<br><br></p>
+									<p>
+									<ul class="list">
+										<p class="subheading">General Rules:</p><br>
+										<li class="general_rules">This is a video-making event where participants will have to submit entries,which have been made by tailoring images</li><br>
+										<li class="general_rules">Usage of video clips will lead to disqualification</li><br>
+										<li class="general_rules">Pictures can be shot from any device.However, use of external lighting or additional sources will not fetch any extra points</li><br>
+										<li class="general_rules">Exceeding the specified time duration will result in a deduction of points</li><br>
+										<li class="general_rules">Credits are not included in the time limit</li><br>
+										<li class="general_rules">All submissions must be completely original and independently produced.Participating teams will themselves be responsible for any third-party copyrights</li><br>
+										<li class="general_rules">Exhibiting pornography, nudity and excessive violence is strictly prohibited and will lead to disqualification from the event<br><br></li>
+									</ul>
+									<ul class="list">
+										<p class="subheading">Elimination Round:</p><br>
+										<li class="general_rules">Participants will have to submit a short time lapse based video before the festival. The duration of this video should be between 5-7 minutes (excluding the credits sequence)</li><br>
+										<li class="general_rules">Participants should send the videos to events@bits-waves.org on or before 30th September, 2015</li><br>
+										<li class="general_rules">The video can be uploaded on Google Drive and a link to the same can be shared</li><br>
+										<li class="general_rules">Each entry must be sent along with a brief abstract in 150 words or less,explaining the idea or the purpose behind the submission. The abstract must be sent in Word/PDF format</li><br><br>
+									</ul>
+									<ul class="list">
+										<p class="subheading">Final Round:</p><br>
+										<li class="general_rules">This round will be a theme based round.The theme for the round will be notified to the participants on 6th November,2015</li><br>
+										<li class="general_rules">This is an on-fest round and requires the participants to be present at BITS Pilani – K.K.Birla Goa Campus for being eligible</li><br>
+										<li class="general_rules">The length of the time lapse video for this round will be from 3 to 5 minutes</li>
+									</ul>
+									<br><br><a id="click2" href="../../registration/registration.html">Register</a>
+									</p>
+								</div>
+							</div>
+							</div>
+						</div>
+						<div class="tiltview col">
+							
+							<img src="img/waves/bdome.jpg"/>
+						</div>
+					</li>
+				</ol>
+			</div><!-- /slideshow -->
+    	</div>
+    	<div class="section" id="fine_arts">
+    		<div class="slideshow" id="slideshow5">
+				<ol class="slides">
+					<li class="current">
+						<div class="description">
+							<h2>Portraiture</h2>
+							<p>Bring down a live subject on paper. A test of true skills as you try capture expressions through your art. The portrait making event at Waves, Portraiture. Show us what you got!</p>
+							<div class="remodal-bg">
+  								<a data-remodal-target="modal16" href="#" id="click">Rules</a><br>
+							<div class="remodal"  data-remodal-options="hashTracking: false" data-remodal-id="modal16" role="dialog" aria-labelledby="modal1Title" aria-describedby="modal1Desc" id="modal-fine">
+  								<button data-remodal-action="close" class="remodal-close" aria-label="Close" ></button>
+ 								 <div>
+    								<h2 class="Title_rules">Portraiture Rules<br><br></h2>
+   									<p id="constant"><strong>Category:</strong>Gold<br><br>
+   									<strong>Team composition:</strong> 1 member <br><br>
+									<strong>Teams per college:</strong> Unlimited<br><br>
+									<strong>Registration:</strong> Online/On the spot<br><br>
+									<strong>Time limit:</strong>2 hours<br><br></p>
+									<p>
+									<ul class="list">
+										<p class="subheading">General Rules:</p><br>
+										<li class="general_rules">Each participant is required to make a sketch of the live model provided</li><br>
+										<li class="general_rules">The participants shall be provided with a set of oil pastels and black pens</li><br>
+										<li class="general_rules">The participants can only use the materials provided to make the sketch</li><br>
+										<li class="general_rules">Usage of any material other than those provided will lead to disqualification</li>
+									</ul>
+									<br><br><a id="click2" href="../../registration/registration.html">Register</a>
+									</p>
+								</div>
+							</div>
+							</div>
+						</div>
+						<div class="tiltview col">
+								
+							<img src="img/waves/portraiture.jpg"/>
+						</div>
+					</li>
+					<li>
+						<div class="description">
+							<h2>Panorama</h2>
+							<p>That urge to capture the whole scenic beauty, everything uninterrupted is exactly what will draw you to Panorama, a fine arts event at Waves which calls you to capture the scenery on paper. In panorama.</p>
+							<div class="remodal-bg">
+  								<a data-remodal-target="modal18" href="#" id="click">Rules</a><br>
+							<div class="remodal"  data-remodal-options="hashTracking: false" data-remodal-id="modal18" role="dialog" aria-labelledby="modal1Title" aria-describedby="modal1Desc" id="modal-fine">
+  								<button data-remodal-action="close" class="remodal-close" aria-label="Close"></button>
+ 								 <div>
+    								<h2 class="Title_rules">Panorama Rules<br><br></h2>
+   									<p id="constant"><strong>Category:</strong>Bronze<br><br>
+   									<strong>Team composition:</strong> 1 member <br><br>
+									<strong>Teams per college:</strong> 5 [Maximum]<br><br>
+									<strong>Registration:</strong> Online/On the spot<br><br>
+									<strong>Time limit:</strong>2 hours<br><br></p>
+									<p>
+									<ul class="list">
+										<p class="subheading">General Rules:</p><br>
+										<li class="general_rules">The event requires the participants to paint the given scenery </li><br>
+										<li class="general_rules">All further details of the event shall be disclosed on the spot</li>
+									</ul>
+									<br><br><a id="click2" href="../../registration/registration.html">Register</a>
+									</p>
+								</div>
+							</div>
+							</div>
+						</div>
+						<div class="tiltview row">
+							
+							<img src="img/waves/Panorama.jpg"/>
+						</div>
+					</li>
+					<li>
+						<div class="description">
+							<h2>Artathon</h2>
+							<p>The ultimate art race. Compete in a series of art events with your partner to complete this arduous marathon and win! Come, compete, race, have fun, enjoy at Arthathon.</p>
+							<div class="remodal-bg">
+  								<a data-remodal-target="modal17" href="#" id="click">Rules</a><br>
+							<div class="remodal"  data-remodal-options="hashTracking: false" data-remodal-id="modal17" role="dialog" aria-labelledby="modal1Title" aria-describedby="modal1Desc" id="modal-fine">
+  								<button data-remodal-action="close" class="remodal-close" aria-label="Close"></button>
+ 								 <div>
+    								<h2 class="Title_rules">Artathon Rules<br><br></h2>
+   									<p id="constant"><strong>Category:</strong>Silver<br><br>
+   									<strong>Team composition:</strong> 2 members <br><br>
+									<strong>Teams per college:</strong> Unlimited<br><br>
+									<strong>Registration:</strong> Online/On the spot<br><br>
+									<strong>Time limit:</strong><br><br>
+									&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>Round 1:</strong> 2 hours<br><br>
+									&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>Round 2:</strong> 2 hours<br><br>
+									&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>Round 3:</strong> 2 hours<br><br></p>
+									<p>
+									<ul class="list">
+										<p class="subheading">General Rules:</p><br>
+										<li class="general_rules">The event shall consist of 3 rounds, during which each team will be put through a series of tasks</li><br>
+										<li class="general_rules">The teams shall move ahead in the competition once they complete the tasks allotted to them</li><br>
+										<li class="general_rules">The final evaluation will be based on their performance in all the 3 rounds</li><br>
+										<li class="general_rules">The details of the rounds will be given to the participants on the spot</li>
+									</ul>
+									<br><br><a id="click2" href="../../registration/registration.html">Register</a>
+									</p>
+								</div>
+							</div>
+							</div>
+						</div>
+						<div class="tiltview col">
+							
+						<img src="img/waves/Artathon.jpg"/>
+						</div>
+					</li>
+					<li>
+						<div class="description">
+							<h2>Shutter Island</h2>
+							<p>This unique blend of digital art and fine arts promises to be a test of all skills. Click a picture and impersonate it best on paper. This Waves show the finest of your talent with colours.</p>
+							<div class="remodal-bg">
+  								<a data-remodal-target="modal19" href="#" id="click">Rules</a><br>
+							<div class="remodal"  data-remodal-options="hashTracking: false" data-remodal-id="modal19" role="dialog" aria-labelledby="modal1Title" aria-describedby="modal1Desc" id="modal-fine">
+  								<button data-remodal-action="close" class="remodal-close" aria-label="Close"></button>
+ 								 <div>
+    								<h2 class="Title_rules">Shutter Island Rules<br><br></h2>
+   									<p id="constant"><strong>Category:</strong>Bronze<br><br>
+   									<strong>Team composition:</strong> 1 member <br><br>
+									<strong>Teams per college:</strong> Unlimited<br><br>
+									<strong>Registration:</strong> Online/On the spot<br><br>
+									<strong>Time limit:</strong>2 hours<br><br></p>
+									<p>
+									<ul class="list">
+										<p class="subheading">General Rules:</p><br>
+										<li class="general_rules">The event requires the participants to first click an image and then, paint the same in an impressionistic style </li><br>
+										<li class="general_rules"> All further details of the event shall be disclosed on the spot</li><br>
+										<li class="general_rules">The participants will be judged on the degree of similarity between the original photograph and the painting</li>
+									</ul>
+									<br><br><a id="click2" href="../../registration/registration.html">Register</a>
+									</p>
+								</div>
+							</div>
+							</div>
+						</div>
+						<div class="tiltview col">
+							
+							<img src="img/waves/shutter.jpg"/>
+						</div>
+					</li>
+				</ol>
+			</div><!-- /slideshow -->
+    	</div>
+    	<div class="section" id="quiz">
+    		<div class="slideshow" id="slideshow6">
+				<ol class="slides">
+					<li class="current">
+						<div class="description">
+							<h2>Waves Open Quiz</h2>
+							<p>The event which caters to anyone and everyone. The Waves open quiz, a platform to test your knowledge, when pitched against the others. The quest for the search of the ultimate quizzing prowess among everyone.</p>
+							<div class="remodal-bg">
+  								<a data-remodal-target="modal20" href="#" id="click">Rules</a><br>
+							<div class="remodal"  data-remodal-options="hashTracking: false" data-remodal-id="modal20" role="dialog" aria-labelledby="modal1Title" aria-describedby="modal1Desc" id="modal-quiz">
+  								<button data-remodal-action="close" class="remodal-close" aria-label="Close"></button>
+ 								 <div>
+    								<h2 class="Title_rules">Waves Open Quiz Rules<br><br></h2>
+   									<p id="constant"><strong>Category:</strong>Gold [Open]<br><br>
+   									<strong>Team composition:</strong> 1-2 members <br><br>
+									<strong>Teams per college:</strong> Unlimited<br><br>
+									<strong>Registration:</strong> Online/On the spot<br><br></p>
+									<p>
+									<ul class="list">
+										<p class="subheading">General Rules:</p><br>
+										<li class="general_rules">The quiz shall be based on a general theme</li><br>
+										<li class="general_rules"> It is an open event. Hence, cross college teams and non-college participation is also allowed</li><br>
+										<li class="general_rules">The eliminations will be held in a standard written format</li><br>
+										<li class="general_rules">The top 6 teams shall proceed to an interactive final</li><br>
+										<li class="general_rules">The final will consist of numerous rounds that will be declared by the quizmaster on the spot</li><br>
+										<li class="general_rules">The quizmaster’s decision is final and binding</li>
+									</ul>
+									<br><br><a id="click2" href="../../registration/registration.html">Register</a>
+									</p>
+								</div>
+							</div>
+							</div>
+						</div>
+						<div class="tiltview col">
+								
+							<img src="img/waves/quiz3.jpg"/>
+						</div>
+					</li>
+					<li>
+						<div class="description">
+							<h2>The Entertainment Quiz</h2>
+							<p>The Waves quiz event completely on what is entertaining and fun. Think you entertainment knowledge quotient is the highest there can be? Then this is your battlefield. </p>
+							<div class="remodal-bg">
+  								<a data-remodal-target="modal21" href="#" id="click">Rules</a><br>
+							<div class="remodal"  data-remodal-options="hashTracking: false" data-remodal-id="modal21" role="dialog" aria-labelledby="modal1Title" aria-describedby="modal1Desc" id="modal-quiz">
+  								<button data-remodal-action="close" class="remodal-close" aria-label="Close"></button>
+ 								 <div>
+    								<h2 class="Title_rules">Entertainment Quiz Rules<br><br></h2>
+   									<p id="constant"><strong>Category:</strong>Silver<br><br>
+   									<strong>Team composition:</strong> 1-3 members <br><br>
+									<strong>Teams per college:</strong> Unlimited<br><br>
+									<strong>Registration:</strong> Online/On the spot<br><br></p>
+									<p>
+									<ul class="list">
+										<p class="subheading">General Rules:</p><br>
+										<li class="general_rules">The quiz shall be based on entertainment </li><br>
+										<li class="general_rules">Movies, music, performances, arts and anything under the banner of entertainment can be included</li><br>
+										<li class="general_rules">The eliminations will be held in a standard written format</li><br>
+										<li class="general_rules">The top 6 teams shall proceed to an interactive final</li><br>
+										<li class="general_rules">A part of the final will be purely dedicated to ‘fantasy’ in keeping with the Waves ’15 theme. All other details of the rounds will be revealed by the quizmaster during the quiz</li><br>
+										<li class="general_rules">The quizmaster’s decision is final and binding</li>
+									</ul>
+									<br><br><a id="click2" href="../../registration/registration.html">Register</a>
+									</p>
+								</div>
+							</div>
+							</div>
+						</div>
+						<div class="tiltview row">
+							
+							<img src="img/waves/quiz4.jpg"/>
+						</div>
+					</li>
+					<li>
+						<div class="description">
+							<h2>The Vices Quiz</h2>
+							<p>For those blurred lines between what’s right and what’s wrong,presenting to you the BITS Goa special. How well do you succumb to your vices, how well do you know them really? Come, test it out.</p>
+						<div class="remodal-bg">
+  								<a data-remodal-target="modal22" href="#" id="click">Rules</a><br>
+							<div class="remodal"  data-remodal-options="hashTracking: false" data-remodal-id="modal22" role="dialog" aria-labelledby="modal1Title" aria-describedby="modal1Desc" id="modal-quiz">
+  								<button data-remodal-action="close" class="remodal-close" aria-label="Close"></button>
+ 								 <div>
+    								<h2 class="Title_rules">Vices Quiz Rules<br><br></h2>
+   									<p id="constant"><strong>Category:</strong>Silver[Open]<br><br>
+   									<strong>Team composition:</strong> 3 members <br><br>
+									<strong>Teams per college:</strong> Unlimited<br><br>
+									<strong>Registration:</strong> Online/On the spot<br><br></p>
+									<p>
+									<ul class="list">
+										<p class="subheading">General Rules:</p><br>
+										<li class="general_rules">The quiz shall be based on vices, a BITS Goa special </li><br>
+										<li class="general_rules">It is an open event. Hence, cross college teams and non-college participation is also allowed</li><br>
+										<li class="general_rules">Everything under the banner of simply wrong and outright immoral can be included</li><br>
+										<li class="general_rules">The eliminations will be held in a standard written format</li><br>
+										<li class="general_rules">The top 6 teams shall proceed to an interactive final</li><br>
+										<li class="general_rules">The quizmaster’s decision is final and binding</li>
+									</ul>
+									<br><br><a id="click2" href="../../registration/registration.html">Register</a>
+									</p>
+								</div>
+							</div>
+							</div>
+						</div>
+						<div class="tiltview col">
+							
+							<img src="img/waves/quiz1.jpg"/>
+						</div>
+					</li>
+					<li>
+						<div class="description">
+							<h2>The Lonewolf Quiz</h2>
+							<p>Do you have it in you, to stand alone, to stand strong? At the Waves individual quiz event give out all you have to prove your merit. Have what it takes? Show it!</p>
+						<div class="remodal-bg">
+  								<a data-remodal-target="modal23" href="#" id="click">Rules</a><br>
+							<div class="remodal"  data-remodal-options="hashTracking: false" data-remodal-id="modal23" role="dialog" aria-labelledby="modal1Title" aria-describedby="modal1Desc" id="modal-quiz">
+  								<button data-remodal-action="close" class="remodal-close" aria-label="Close"></button>
+ 								 <div>
+    								<h2 class="Title_rules">The Lonewolf Rules<br><br></h2>
+   									<p id="constant"><strong>Category:</strong>Bronze<br><br>
+   									<strong>Team composition:</strong> 1 member <br><br>
+									<strong>Teams per college:</strong> Unlimited<br><br>
+									<strong>Registration:</strong> Online/On the spot<br><br></p>
+									<p>
+									<ul class="list">
+										<p class="subheading">General Rules:</p><br>
+										<li class="general_rules">The quiz shall be based on a general theme </li><br>
+										<li class="general_rules">The eliminations will be held in a standard written format</li><br>
+										<li class="general_rules">The top 6 quizzers shall proceed to an interactive final</li><br>
+										<li class="general_rules">The final will consist of numerous rounds that will be declared by the quizmaster on the spot</li><br>
+										<li class="general_rules">The quizmaster’s decision is final and binding</li>
+									</ul>
+									<br><br><a id="click2" href="../../registration/registration.html">Register</a>
+									</p>
+								</div>
+							</div>
+							</div>
+						</div>
+						<div class="tiltview col">
+							
+							<img src="img/waves/quiz2.jpg"/>
+						</div>
+					</li>
+				</ol>
+			</div><!-- /slideshow -->
+    	</div>
+    	<div class="section" id="literary">
+    		<div class="slideshow" id="slideshow7">
+				<ol class="slides">
+					<li class="current">
+						<div class="description">
+							<h2>Just a Minute</h2>
+							<p>Speak. Argue. Object. Repeat. Speak all you have at JAM – Just a minute. Jump at opportunities; find faults, at this delightful battle of words. Let us bear witness to your words.</p>
+							<div class="remodal-bg">
+  								<a data-remodal-target="modal24" href="#" id="click">Rules</a><br>
+							<div class="remodal"  data-remodal-options="hashTracking: false" data-remodal-id="modal24" role="dialog" aria-labelledby="modal1Title" aria-describedby="modal1Desc" id="modal-lit">
+  								<button data-remodal-action="close" class="remodal-close" aria-label="Close"></button>
+ 								 <div>
+    								<h2 class="Title_rules">Just A Minute Rules<br><br></h2>
+   									<p id="constant"><strong>Category:</strong>Gold<br><br>
+   									<strong>Team composition:</strong> 1 member <br><br>
+									<strong>Teams per college:</strong> Unlimited<br><br>
+									<strong>Registration:</strong> Online/On the spot<br><br></p>
+									<p>
+									<ul class="list">
+										<p class="subheading">Elimination Round:</p><br>
+										<li class="general_rules">Participants shall be grouped in random sets of 6 or 8</li><br>
+										<li class="general_rules">Each group shall go through at least one set of regular JAM and one special round like an Alphabet JAM, or a Disconnect JAM, the rules for which shall be explained in detail on the spot</li><br>
+										<li class="general_rules">The number of rounds happening will be at the discretion of the JAM Moderator</li><br>
+										<li class="general_rules">2 participants with the maximum points from each group will proceed to the finals<br><br></li>
+									</ul>
+									<ul class="list">
+										<p class="subheading">Final Round:</p><br>
+										<li class="general_rules">The final participants shall then have 5 rounds of jamming</li><br>
+										<li class="general_rules">These rounds will be followed by a special round of Block and Tackle,where one has to contradict (battle) himself constantly on a particular topic</li><br>
+										<li class="general_rules">The Block and Tackle round will have special veto power where the lowest scorer in that round will automatically lose even if he or she performs well in the other rounds</li><br>
+										<li class="general_rules">General points will be awarded based on the duration for which a contestant speaks without making grammatical errors, slurring etc. and not on content.Points may also be awarded, however,for generally being an all-round nice chap</li><br>
+										<li class="general_rules">The top two participants will then take part in a JAM-Off against each other to decide the winner. The rules for the same will be announced during the event</li><br>
+										<li class="general_rules">The JAM Moderator’s decision will be final and binding</li><br>
+										<li class="general_rules">Vulgarity is strictly prohibited and may result in disqualification</li>
+
+									</ul>
+									<br><br><a id="click2" href="../../registration/registration.html">Register</a>
+									</p>
+								</div>
+							</div>
+							</div>
+						</div>
+						<div class="tiltview col">
+								
+							<img src="img/waves/jam.jpg"/>
+						</div>
+					</li>
+					<li>
+						<div class="description">
+							<h2>Waves Poetry Slam</h2>
+							<p>Fancy your writing? Or are rhymes your thing? Then poetry slam is just for you. To anything and everything that inspires you, express it out. The Wordsworth in you screams for attention.</p>
+							<div class="remodal-bg">
+  								<a data-remodal-target="modal25" href="#" id="click">Rules</a><br>
+							<div class="remodal"  data-remodal-options="hashTracking: false" data-remodal-id="modal25" role="dialog" aria-labelledby="modal1Title" aria-describedby="modal1Desc" id="modal-lit">
+  								<button data-remodal-action="close" class="remodal-close" aria-label="Close"></button>
+ 								 <div>
+    								<h2 class="Title_rules">Waves Poetry Slam Rules<br><br></h2>
+   									<p id="constant"><strong>Category:</strong>Silver<br><br>
+   									<strong>Team composition:</strong> 1 member <br><br>
+									<strong>Teams per college:</strong> Unlimited<br><br>
+									<strong>Registration:</strong> Online/On the spot<br><br>
+									<strong>Time limit:</strong><br><br>
+									&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>Elimination:</strong>3 minutes<br><br>
+									&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>Finals:</strong>15 minutes + 4 minutes**<br><br></p>
+									<p class="conditions">**Please refer to the rules for more details<br><br></p>
+									<p>
+									<ul class="list">
+										<p class="subheading">Elimination Round:</p><br>
+										<li class="general_rules">An original poem of any shape or size(under three minutes) is to be recited in any form deemed worthy by the poet</li><br>
+										<li class="general_rules">The number of poets qualifying to the final round will be at the discretion of the judges</li><br>
+										<li class="general_rules">Bonus points will be given to poets who recite their poems from memory</li><br>
+										<li class="general_rules">Vulgarity of any form will not be tolerated</li><br>
+										<li class="general_rules">Judging criteria will include:<br><br>1. Creativity<br>2. Literary brilliance<br>3. Recitation, etc. </li><br>
+										<li class="general_rules">It can also be an audience based judgement<br><br></li>
+									</ul>
+									<ul class="list">
+										<p class="subheading">Final Round:</p><br>
+										<li class="general_rules">The final round will be a theme based round. There will be several themes out of which one will be provided to each poet, based on a draw of lots</li><br>
+										<li class="general_rules">The finalists will then be given 15 minutes to write a poem (under 4 minutes) based on the theme, and then recite it</li><br>
+										<li class="general_rules">The victor will be awarded the title “Poet Laureate of Waves – 2015”</li>
+									</ul>
+									<br><br><a id="click2" href="../../registration/registration.html">Register</a>
+									</p>
+								</div>
+							</div>
+							</div>
+						</div>
+						<div class="tiltview row">
+							
+							<img src="img/waves/lit2.jpg"/>
+						</div>
+					</li>
+					<li>
+						<div class="description">
+							<h2>Word Games</h2>
+							<p>Try not to pull out your hair as you attempt this paper. No, seriously.Tread cautiously in the world of oxymoron and puns. Good luck on your path ahead.</p>
+							<div class="remodal-bg">
+  								<a data-remodal-target="modal26" href="#" id="click">Rules</a><br>
+							<div class="remodal"  data-remodal-options="hashTracking: false" data-remodal-id="modal26" role="dialog" aria-labelledby="modal1Title" aria-describedby="modal1Desc" id="modal-lit2">
+  								<button data-remodal-action="close" class="remodal-close" aria-label="Close"></button>
+ 								 <div>
+    								<h2 class="Title_rules">Word Games Rules<br><br></h2>
+   									<p id="constant"><strong>Category:</strong>Bronze<br><br>
+   									<strong>Team composition:</strong> 1-2 members <br><br>
+									<strong>Teams per college:</strong> Unlimited<br><br>
+									<strong>Registration:</strong> Online/On the spot<br><br></p>
+									<p>
+									<ul class="list">
+										<p class="subheading">Elimination Round:</p><br>
+										<li class="general_rules">A general question paper will be given to the teams comprising standard word games like anagrams, palindromes, etc.</li><br>
+										<li class="general_rules">7 teams will qualify for the final rounds,subject to a maximum of 3 teams per college<br><br></li>
+									</ul>
+									<ul class="list">
+										<p class="subheading">Final Round:</p><br>
+										<li class="general_rules">Qualifying teams will be informed of the rules on the spot. There will be a scrabble component</li><br>
+										<li class="general_rules">Depending on the results, more than one sub-round may be conducted</li>
+									</ul>
+									<br><br><a id="click2" href="../../registration/registration.html">Register</a>
+									</p>
+								</div>
+							</div>
+							</div>
+						</div>
+						<div class="tiltview col">
+							
+							<img src="img/waves/lit3.jpg"/>
+						</div>
+					</li>
+				</ol>
+			</div><!-- /slideshow -->
+		</div>		
+    	<div class="section" id="the_waves_specials">
+    		<div class="slideshow" id="slideshow8">
+				<ol class="slides">
+					<li class="current">
+						<div class="description">
+							<h2>Natyanjali</h2>
+							<p>The ultimate lookout for the best dance troupe there is. Think you and your group have what it takes to bedazzle the audience with your masterful moves? Then Natyanjali is what you have been looking for. The stage for the best of the best.</p>
+							<div class="remodal-bg">
+  								<a data-remodal-target="modal27" href="#" id="click">Rules</a><br>
+							<div class="remodal"  data-remodal-options="hashTracking: false" data-remodal-id="modal27" role="dialog" aria-labelledby="modal1Title" aria-describedby="modal1Desc" id="modal-special">
+  								<button data-remodal-action="close" class="remodal-close" aria-label="Close"></button>
+ 								 <div>
+    								<h2 class="Title_rules">Natyanjali Rules<br><br></h2>
+   									<p id="constant"><strong>Category:</strong>Platinum<br><br>
+   									<strong>Team composition:</strong> 8-15 members + 3 (backstage)<br><br>
+									<strong>Teams per college:</strong> Unlimited<br><br>
+									<strong>Registration:</strong> Online/On the spot<br><br>
+									<strong>Time limit:</strong> 6-10 minutes<br><br></p>
+									<p>
+									<ul class="list">
+										<p class="subheading">General Rules:</p><br>
+										<li class="general_rules">A minimum of 6 dancers are required to be present on the stage at all times</li><br>
+										<li class="general_rules">Usage of props is allowed.However, this does not fetch any additional points</li><br>
+										<li class="general_rules">The Organizing Committee must be notified of the same at least 1 day prior to the performance by sending a mail to events@bits-waves.org </li><br>
+										<li class="general_rules">The subject of the mail should be “Request to use props for Natyanjali”</li><br>
+										<li class="general_rules">For the teams who register on-spot,permission to use props will be at the discretion of the Event Manager</li><br>
+										<li class="general_rules">Usage of any powdered substance(e.g. colour, powder, gulaal etc.) has to be informed to the event manager in advance</li><br>
+										<li class="general_rules">No lead dancer or solo performance is allowed in any of the rounds</li><br>
+										<li class="general_rules">Sound track for the group’s performance should be brought along in a pen drive and submitted at the time of registration</li><br>
+										<li class="general_rules">The number of teams that qualify for the finals is subject to the number of teams participating in the elimination round<br><br></li>
+									</ul>
+									<ul class="list">
+										<p class="subheading">Elimination Round:</p><br>
+										<li class="general_rules">Participants will be required to perform a prepared dance sequence.The duration of this performance will be 6-10 minutes</li><br>
+										<li class="general_rules">A negative marking of 5% of the total score will be awarded for each minute of exceeding the time limit</li><br>
+										<li class="general_rules">Participants can incorporate any dance form into their performance</li><br>
+										<li class="general_rules">The elimination round is not open to watch, and will be held in a close room. Only the judging panel will be viewing the team’s performance<br><br></li>
+									</ul>
+									<ul class="list">
+										<p class="subheading">Final Round:</p><br>
+										<li class="general_rules">The teams who qualify for the final will have to perform the same dance sequence as the elimination round</li><br>
+										<li class="general_rules">The final round will be held in the auditorium in front of a live audience</li><br>
+										<li class="general_rules">Rules and guidelines for this performance will be same as those for the elimination round</li><br>
+										<li class="general_rules">The auditorium screen shall not be used for any purpose (photos,videos, etc.)</li><br>
+										<li class="general_rules">Teams are not allowed to use any external lighting for their performance</li><br><br>
+										<p class="conditions">*A tiebreaker round might be introduced after the eliminations, if only found necessary by the judges and the event managers. The rules for the tie breaker (if necessary) will be disclosed at the end of the elimination round.Hence, at least one member from every group must stay back till the result of the elimination round is announced</p>
+										
+									</ul>
+									<br><br><a id="click2" href="../../registration/registration.html">Register</a>
+									</p>
+								</div>
+							</div>
+							</div>
+						</div>
+						<div class="tiltview col">
+								
+							<img src="img/waves/resized.jpg"/>
+						</div>
+					</li>
+					<li>
+						<div class="description">
+							<h2>Fash-P</h2>
+							<p>Fire up the ramp with your panache and confidence in this battle of beauty and style. A pinnacle of perfection and style, FashP promises to be a delight. Come wow us with your creations at the Waves Fashion Show event.</p>
+							<div class="remodal-bg">
+  								<a data-remodal-target="modal28" href="#" id="click">Rules</a><br>
+							<div class="remodal"  data-remodal-options="hashTracking: false" data-remodal-id="modal28" role="dialog" aria-labelledby="modal1Title" aria-describedby="modal1Desc" id="modal-special">
+  								<button data-remodal-action="close" class="remodal-close" aria-label="Close"></button>
+ 								 <div>
+    								<h2 class="Title_rules">FashP Rules<br><br></h2>
+   									<p id="constant"><strong>Category:</strong>Platinum<br><br>
+   									<strong>Team composition:</strong> 12-18 members <br><br>
+									<strong>Teams per college:</strong> Unlimited<br><br>
+									<strong>Registration:</strong> Online/On the spot<br><br>
+									<strong>Time limit:</strong> 4-15 minutes<br><br></p>
+									<p>
+									<ul class="list">
+										<p class="subheading">General Rules:</p><br>
+										<li class="general_rules">The teams are required to adhere to any one of the given themes</li>
+										<li class="general_rules">A team can comprise of 12-18 members, including the backstage crew.However, a minimum of 10 participants(excluding the backstage crew) is a must</li><br>
+										<li class="general_rules">Background tracks are a must for each performance and these need not be limited to audio</li><br>
+										<li class="general_rules">Any form of performance other than fashion related choreography is not allowed and will lead to deduction of points<br><br></li>
+									</ul>
+									<ul class="list">
+										<p class="subheading">Elimination Round:</p><br>
+										<li class="general_rules">The elimination round is impromptu,based on the clothes and set-up presented. The choreography and soundtrack are irrelevant for this round</li><br>
+										<li class="general_rules">Teams need to submit a write up during eliminations, which should also contain specifications like duration,participant details, and information about props if any</li><br>
+										<li class="general_rules">Teams must bring along copies of their background tracks in pen drives which have to be submitted before eliminations</li><br>
+										<li class="general_rules">The eliminatory round is to judge your presentation of the theme. A preview of the line-up and basic portrayal of theme will suffice. In simple terms, it is to verify that your interpretation and portrayal of the theme<br><br></li>
+									</ul>
+									<ul class="list">
+										<p class="subheading">Final Round:</p><br>
+										<li class="general_rules">Each team has to perform on the theme presented by them during eliminations</li><br>
+										<li class="general_rules">Importance will be given to clothing,walk, portrayal of theme with the setup(music, props) and originality</li><br>
+										<li class="general_rules">Teams are required to declare their backstage helpers, during eliminations.This number cannot exceed five people per team. They have to be present backstage to provide cues for music and light</li><br>
+										<li class="general_rules">Use of water, fire and any kind of fireworks (party poppers included) in any form on stage will result in disqualification</li><br>
+										<li class="general_rules">Points will be deducted for any display of vulgarity or dance movements on stage</li>
+
+									</ul>
+									<br><br><a id="click2" href="../../registration/registration.html">Register</a>
+									</p>
+								</div>
+							</div>
+							</div>
+						</div>
+						<div class="tiltview row">
+							
+							<img src="img/waves/fashp2.jpg"/>
+						</div>
+					</li>
+					<li>
+						<div class="description">
+							<h2>Mr and Ms Waves</h2>
+							<p>Can your charisma blow us over? Do you have what it takes to be the most dynamic duo at Waves? Does your personality ooze enough aura? Are you witty enough, or funny enough? If the answer to all the above questions is a yes, waste no time. Mr Ms Waves awaits you.</p>
+							<div class="remodal-bg">
+  								<a data-remodal-target="modal29" href="#" id="click">Rules</a><br>
+							<div class="remodal"  data-remodal-options="hashTracking: false" data-remodal-id="modal29" role="dialog" aria-labelledby="modal1Title" aria-describedby="modal1Desc" id="modal-special">
+  								<button data-remodal-action="close" class="remodal-close" aria-label="Close"></button>
+ 								 <div>
+    								<h2 class="Title_rules">Mr and Ms Waves Rules<br><br></h2>
+   									<p id="constant"><strong>Category:</strong>Platinum<br><br>
+   									<strong>Team composition:</strong> Solo <br><br>
+									<strong>Teams per college:</strong> Unlimited<br><br>
+									<strong>Registration:</strong> Online/On the spot<br><br></p>
+									<p>
+									<ul class="list">
+										<p class="subheading">General Rules:</p><br>
+										<li class="general_rules">Candidates can register either online or on day 0 of the festival </li>
+										<li class="general_rules">No registrations will be allowed past the deadline</li><br>
+										<li class="general_rules">It is recommended to the participants that they register online, as the online events also carry certain weight in the final score</li><br>
+										<li class="general_rules">The deadline for the registrations will be announced at a later stage</li><br>
+										<li class="general_rules">The event shall be conducted in multiple rounds, both online and on-fest</li><br>
+										<li class="general_rules">Details of various online rounds would be released at a later stage.Keep following  http://www.facebook.com/bitswaves for the updates<br><br></li>
+									</ul>
+									<ul class="list">
+										<p class="subheading">Onfest Rounds:</p><br>
+										<li class="general_rules">There will be 3 on-fest rounds conducted, spanning over the 3 days of the festival</li><br>
+										<li class="general_rules">Candidates will be eliminated at the end of each day, depending on the number of points they amassed in the tasks for the day</li><br>
+										<li class="general_rules">The points amassed in the online rounds will only be considered, if the candidate reaches the final round</li><br>
+										<li class="general_rules">The on-fest rounds will try and evaluate the participants’ personality,talent, appeal, wit, humour and presence of mind during various rounds</li><br>
+										<li class="general_rules">The participants will be informed of the list of the on-fest rounds and the tasks to be completed on Day 1 of the festival</li><br>
+										<li class="general_rules">The validity of all the tasks performed would be witnessed by an organiser at all times </li><br>
+										<li class="general_rules">The most enigmatic duo would deserve the title of Mr and Ms Waves</li><br><br>
+									</ul>
+									<ul class="list">
+										<p class="subheading">Note:</p><br>
+										<li class="general_rules">Updates regarding the event will be posted on the Facebook page</li>
+										<li class="general_rules">The dates for registration and the deadlines shall also be released on the Facebook page and will also be present on the Waves website http://www.bits-waves.org</li>
+									</ul>
+									<br><br><a id="click2" href="../../registration/registration.html">Register</a>
+									</p>
+								</div>
+							</div>
+							</div>
+						</div>
+						<div class="tiltview col">
+							
+							<img src="img/waves/fashp.jpg"/>
+						</div>
+					</li>
+					<li>
+						<div class="description">
+							<h2>Contention</h2>
+							<p>Sparring for the verbally combative. Oppose, support, justify, argue. Be a part of some stellar debates on challenging motions. The Waves Parliamentary debate ladies and gentlemen. Because debate is life, the rest is just prep time.</p>
+							<div class="remodal-bg">
+  								<a data-remodal-target="modal30" href="#" id="click">Rules</a><br>
+							<div class="remodal"  data-remodal-options="hashTracking: false" data-remodal-id="modal30" role="dialog" aria-labelledby="modal1Title" aria-describedby="modal1Desc" id="modal-special">
+  								<button data-remodal-action="close" class="remodal-close" aria-label="Close"></button>
+ 								 <div>
+    								<h2 class="Title_rules">Contention Rules<br><br></h2>
+   									<p id="constant"><strong>Category:</strong>Platinum<br><br>
+   									<strong>Team composition:</strong> 2 members <br><br>
+									<strong>Teams per college:</strong> Unlimited*<br><br>
+									<strong>Registration:</strong> Online/On the spot<br><br></p>
+									<p class="conditions">*Refer to the rulebook for more details</p><br><br>
+									<p>
+									<ul class="list">
+										<p class="subheading">General Rules:</p><br>
+										<li class="general_rules">The Debate will follow the British Parliamentary format.Each team will consist of two participants</li><br>
+										<li class="general_rules">Each team must be accompanied by at least one adjudicator</li><br>
+										<li class="general_rules">The tournament will run on all three days of the festival</li><br>
+										<li class="general_rules">The adjudication test will be held on day 0 of the tournament, i.e.November 5th. The format of the adjudication test will be decided by the adjudication core of the tournament</li><br>
+										<li class="general_rules">Institutional cross teams are allowed</li><br>
+										<li class="general_rules">Independent adjudicators are welcome to participate. However, one must be a student of an educational institute to be eligible to participate</li><br>
+										<li class="general_rules">Subsidies will be provided to selected adjudicators. This judge subsidy will depend on previous debating and adjudication experience**</li><br>
+										<li class="general_rules">There is an overall team cap of 40 teams. The first 40 teams to register for the tournament will be given the first preference, while the following teams will be put up in a wait list</li><br>
+										<li class="general_rules">There is no institutional team cap; however, an institution may be asked to register only a specified number of teams if the overall team cap of the tournament is being crossed</li><br>
+										<li class="general_rules">The number of pre break rounds will be subject to the number of participating teams</li><br>
+										<li class="general_rules">Pre break Rounds will be followed by 16 teams breaking into the next round</li><br>
+										<li class="general_rules">A novice break will occur depending on the number of novice teams in the tournament</li><br>
+										<li class="general_rules">The tournament will run throughout the duration of the festival. Hence, the participants are requested to refrain from participating in other competitions at the festival</li><br>
+										<li class="general_rules">For more details and updates on the registration process, visit https://www.facebook.com/ldcbitsg regularly</li><br>
+										<li class="general_rules">If you feel that you are an experienced adjudicator, write a mail to us at contention@bitswaves.org with your previous tournament experience and other necessary details</li><br>
+										<li class="general_rules">If you have a query, write to us at contention@bits-waves.org </li>
+									</ul>
+									<br><br><a id="click2" href="../../registration/registration.html">Register</a>
+									</p>
+								</div>
+							</div>
+							</div>
+						</div>
+						<div class="tiltview col">
+							
+							<img src="img/waves/contention.jpg"/>
+						</div>
+					</li>
+					<li>
+						<div class="description">
+							<h2>Wallstreet Fête</h2>
+							<p>Here’s to all you can negotiate and all you can buy. Fancy yourself as Wallstreet worthy? Show it to us this Waves. Get the gold folks!</p>
+							<div class="remodal-bg">
+  								<a data-remodal-target="modal31" href="#" id="click">Rules</a><br>
+							<div class="remodal"  data-remodal-options="hashTracking: false" data-remodal-id="modal31" role="dialog" aria-labelledby="modal1Title" aria-describedby="modal1Desc" id="modal-special">
+  								<button data-remodal-action="close" class="remodal-close" aria-label="Close"></button>
+ 								 <div>
+    								<h2 class="Title_rules">Wallstreet Fête Rules<br><br></h2>
+   									<p id="constant"><strong>Category:</strong>Gold<br><br>
+   									<strong>Team composition:</strong> 4-6 members <br><br>
+									<strong>Teams per college:</strong> Unlimited<br><br>
+									<strong>Registration:</strong> Online/On the spot<br><br></p>
+									<p>
+									<ul class="list">
+										<p class="subheading">General Rules:</p><br>
+										<li class="general_rules">One fixed person in each team must stay at the table throughout the event. All the other members are free to move around and negotiate in the game</li><br>
+										<li class="general_rules">A total of 8 to 10 teams would be allowed to participate. This shall be at the discretion of the organisers</li><br>
+										<li class="general_rules">The team with the maximum profit wins the game</li><br><br>
+									</ul>
+									<ul class="list">
+										<p class="subheading">Level 1 – Bullion Beatdown:</p><br>
+										<li class="general_rules">There will be 10 rounds, each comprising of 2 minutes</li><br>
+										<li class="general_rules">Half the teams will be given 2000 units of gold. The other half will be given -2000 units of gold. Base price of each unit is 200</li><br>
+										<li class="general_rules">The teams are free to trade amongst themselves. Each trade should involve buying/selling in multiples of 100 units. Any team can buy or sell any number of units in each round</li><br>
+										<li class="general_rules">The negotiators are expected to negotiate the selling/buying price and bring it closest to their requirements</li><br>
+										<li class="general_rules">The person at the table will officially negotiate with members of different teams and “handle” the transactions</li><br>
+										<li class="general_rules">In the end, every team is expected to bring the number of units down to zero, after all 10 rounds have been concluded and the team with the greatest profit wins</li><br><br>
+									</ul>
+									<ul class="list">
+										<p class="subheading">Level 2 – Loan. Paper. Scissors:</p><br>
+										<li class="general_rules">The top few teams from round 1 would go to round 2</li><br>
+										<li class="general_rules">The prime objective of the round is to sell your products and earn as much profit as you can</li><br>
+										<li class="general_rules"> The teams will be divided into poor,emerging and rich countries based on a draw of lots, wherein they will be given materials like papers, scissors, cutters, pens etc. and some money initially in different proportions to the three category of countries to form their products</li><br>
+										<li class="general_rules">The products will be a circle, triangle,rectangle and two complicated shapes which will be shown on the spot</li><br><br>
+										<li class="general_rules">The teams have to make the shapes and sell them to the banker present after every round</li><br>
+										<li class="general_rules">The price of each shape is fixed and will be told on the spot</li><br>
+										<li class="general_rules"> Since the different materials required for production are divided separately among the countries, the different teams have to negotiate with each other for the instruments to make their products</li><br>
+										<li class="general_rules">There will be 9 rounds totally. After each round teams have to sell their products to the banker present and at the same time their other team members can negotiate with other teams</li>
+									</ul>
+									<br><br><a id="click2" href="../../registration/registration.html">Register</a>
+									</p>
+								</div>
+							</div>
+							</div>
+						</div>
+						<div class="tiltview col">
+							
+							<img src="img/waves/wall.jpg"/>
+						</div>
+					</li>
+					<li>
+						<div class="description">
+							<h2>Show Me The Funny</h2>
+							<p>Because making people laugh is a serious business. Think yourself capable of it? Tickle the audience’s funny bone at this stand up comedy event. We are waiting to be entertained.</p>
+							<div class="remodal-bg">
+  								<a data-remodal-target="modal32" href="#" id="click">Rules</a><br>
+							<div class="remodal"  data-remodal-options="hashTracking: false" data-remodal-id="modal32" role="dialog" aria-labelledby="modal1Title" aria-describedby="modal1Desc" id="modal-special">
+  								<button data-remodal-action="close" class="remodal-close" aria-label="Close"></button>
+ 								 <div>
+    								<h2 class="Title_rules">Show Me The Funny Rules<br><br></h2>
+   									<p id="constant"><strong>Category:</strong>Silver<br><br>
+   									<strong>Team composition:</strong> Solo <br><br>
+									<strong>Teams per college:</strong> Unlimited<br><br>
+									<strong>Registration:</strong> Online/On the spot<br><br>
+									<strong>Time limit:</strong><br><br>
+									&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>Elimination:</strong>2-3 minutes<br><br>
+									&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>Finals:</strong>4-6 minutes<br><br></p>
+									<p>
+									<ul class="list">
+										<p class="subheading">General Rules:</p><br>
+										<li class="general_rules">Only performances in English will be allowed. Performances in any other language shall lead to disqualification of the participant</li><br>
+										<li class="general_rules">Vulgarity is allowed, but not encouraged. Excessive usage of vulgarity will result in negative marking</li><br><br>
+									</ul>
+									<ul class="list">
+										<p class="subheading">Elimination Round:</p><br>
+										<li class="general_rules">Each participant is required to perform for 2-3 minutes</li><br>
+										<li class="general_rules">This round shall be conducted behind closed doors, with only the judges and/or organisers being the audience</li><br>
+										<li class="general_rules">Any audience interaction is prohibited in this round and will lead to disqualification</li>
+									</ul>
+									<ul class="list">
+										<p class="subheading">Final Round 1:</p><br>
+										<li class="general_rules">Each participant is required to perform a 4-6 minute long act</li><br>
+										<li class="general_rules">This round shall be conducted in front of an audience</li><br>
+										<li class="general_rules">Interaction with the audience is allowed and encouraged in this round</li><br>
+										<li class="general_rules">However, insulting/insinuating the audience will lead to disqualification</li><br>
+										<li class="general_rules">There will be no eliminations taking place after this round. The points acquired in this round will be carried forward to the next round</li>
+									</ul>
+									<ul class="list">
+										<p class="subheading">Final Round 2:</p><br>
+										<li class="general_rules">This round tests the improvisation skills of the participants</li><br>
+										<li class="general_rules">This round will comprise of multiple tasks and all of them carry weight in the final score</li><br>
+										<li class="general_rules">More details on this round shall be disclosed on the spot</li>
+									</ul>
+									<br><br><a id="click2" href="../../registration/registration.html">Register</a>
+									</p>
+								</div>
+							</div>
+							</div>
+						</div>
+						<div class="tiltview col">
+							
+							<img src="img/waves/rusel.jpg"/>
+						</div>
+					</li>
+					<li>
+						<div class="description">
+							<h2>Ratatouille</h2>
+							<p>Make the flavours you control, bowl us over at the Waves cooking competition. Impress us with the delicacies you stir up. Have it in you? Display your flair for dishing out the best of treats for our palates.</p>
+							<div class="remodal-bg">
+  								<a data-remodal-target="modal33" href="#" id="click">Rules</a><br>
+							<div class="remodal"  data-remodal-options="hashTracking: false" data-remodal-id="modal33" role="dialog" aria-labelledby="modal1Title" aria-describedby="modal1Desc" id="modal-special">
+  								<button data-remodal-action="close" class="remodal-close" aria-label="Close"></button>
+ 								 <div>
+    								<h2 class="Title_rules">Ratatouille Rules<br><br></h2>
+   									<p id="constant"><strong>Category:</strong>Silver<br><br>
+   									<strong>Team composition:</strong> 1 member<br><br>
+									<strong>Teams per college:</strong> Unlimited<br><br>
+									<strong>Registration:</strong> Online/On the spot<br><br></p>
+									<p>
+									<ul class="list">
+										<p class="subheading">General Rules:</p><br>
+									<li class="general_rules">All the participants are required to follow the instructions given to them during the event</li><br>
+									<li class="general_rules">Watch out for surprise rounds.They might be made a part of the event, without any prior notice</li><br>
+									<li class="general_rules">Judging criteria:<br><br>1. Taste<br>2. Justice to the ingredients used<br>3. The core ingredient, if any,should shine<br>4. Plating and appearance</li><br><br>
+								</ul>
+								<ul class="list">
+									<p class="subheading">Taste Test:</p><br>
+									<li class="general_rules">A dish will be provided to the participants. They are required to list out as many ingredients as they can recognise in the dish</li><br>
+									<li class="general_rules">Depending on the number of entries, eliminations will be conducted on the basis of this</li><br><br>
+								</ul>
+								<ul class="list">
+									<p class="subheading">The Team Challenge:</p><br>
+									<li class="general_rules">The participants will be split into 3 teams, by a draw of lots</li><br>
+									<li class="general_rules">The teams will be required to prepare 3 starters and a dessert each</li><br>
+									<li class="general_rules">These will be distributed in the crowd and their popularity will be qualitatively measured</li><br>
+									<li class="general_rules">A voting session will follow and the team standing last shall be eliminated</li><br>
+									<li class="general_rules">This shall be followed by an impromptu elimination round</li><br><br>
+								</ul>
+								<ul class="list">
+									<p class="subheading">The Finale:</p><br>
+									<li class="general_rules">The finale shall be conducted in two rounds:<br><br> 1. Mystery Box Challenge<br><br>2. Invention Test</li><br>
+									<li class="general_rules">Mystery Box Challenge:<br><br> 1. The finalists are given a box containing an odd combination of ingredients<br><br>2. They are required to prepare a dish using some/all of these ingredients in an hour <br><br>3. The person with the maximum score gets to choose the core ingredient for the next round</li><br>
+									<li class="general_rules">Invention Test:<br><br>1. The winner of the mystery box challenge gets to pick the core ingredient for this round,from a choice of 3 ingredients<br><br>2. The participants are now required to prepare a dish,using this core ingredient<br><br>3. The duration of this round would be an hour<br><br>4. The cumulative scores of the mystery box challenge and the invention test decide the winner</li>
+									</ul>
+									<br><br><a id="click2" href="../../registration/registration.html">Register</a>
+									</p>
+								</div>
+							</div>
+							</div>
+						</div>
+						<div class="tiltview col">
+							
+							<img src="img/waves/rat.jpg"/>
+						</div>
+					</li>
+					<li>
+						<div class="description">
+							<h2>The Waves Rubik's Challenge</h2>
+							<p>There is place only for the masters in the ultimate rubik’s cube faceoff. If the humble cube is mere servant of your fingers and brain, this is where you need to be. Waves calls upon all geniuses for the foremost rubik combat.</p>
+							<div class="remodal-bg">
+  								<a data-remodal-target="modal34" href="#" id="click">Rules</a><br>
+							<div class="remodal"  data-remodal-options="hashTracking: false" data-remodal-id="modal34" role="dialog" aria-labelledby="modal1Title" aria-describedby="modal1Desc" id="modal-specialch">
+  								<button data-remodal-action="close" class="remodal-close" aria-label="Close"></button>
+ 								 <div>
+    								<h2 class="Title_rules">Rubik’s Challenge Rules<br><br></h2>
+   									<p id="constant"><strong>Category:</strong>Gold<br><br>
+   									<strong>Team composition:</strong> 1 member<br><br>
+									<strong>Teams per college:</strong> Unlimited<br><br>
+									<strong>Registration:</strong> Online/On the spot<br><br></p>
+									<p>
+									<ul class="list">
+										<p class="subheading">The list of cubing events are as follows:</p><br>
+										<li class="general_rules">3*3 Cube solving</li><br>
+										<li class="general_rules">4*4 Cube solving</li><br>
+										<li class="general_rules">3*3 Cube solving one-handed</li><br>
+										<li class="general_rules">3*3 Cube solving blindfolded</li><br>
+										<li class="general_rules">5*5 Cube solving blindfolded</li><br>
+										<li class="general_rules">3*3 Multiple cube solving blindfolded</li><br><br>
+									</ul>
+									<ul class="list">
+										<p class="subheading">General Rules</p><br>
+										<li class="general_rules">The events will be held in accordance with WCA rules and regulations</li><br>
+										<li class="general_rules">The list of rules can be found on the World Cube Association(WCA) site</li><br>
+										<li class="general_rules">Particiapnts are adviced to read through it before mailing queries</li>
+									</ul>
+									<br><br><a id="click2" href="../../registration/registration.html">Register</a>
+									</p>
+								</div>
+							</div>
+							</div>
+						</div>
+						<div class="tiltview col">
+							
+							<img src="img/waves/Rubik's.jpg"/>
+						</div>
+					</li>
+					<li>
+						<div class="description">
+							<h2>Searock</h2>
+							<p>Believe that the music you and your band produce posses the potential for greatness? Searock, one of India’s largest semi pro band competitions is your haven. It’s the warground for the masters.</p><br><br>
+							<a id="click" href="http://searockindia.org/">Register</a>
+						</div>
+						<div class="tiltview col">
+							
+							<img src="img/waves/searock.jpg"/>
+						</div>
+					</li>
+					<li>
+						<div class="description">
+							<h2>Lex Omnia</h2>
+							<p>It’s a legal battle like one you have never witnessed before. Impress us with your logic, presence of mind, legal aptitude and much more. Argue it out at the Waves Moot Court where we stand spectator to your legal skills.</p>
+						</div>
+						<div class="tiltview col">
+							
+							<img src="img/waves/lex.jpg"/>
+						</div>
+					</li>
+					
+				</ol>
+			</div><!-- /slideshow -->
+		</div>
+    				
+		</div>
+		<script src="js/classie.js"></script>
+		<script src="js/tiltSlider.js"></script>
+		<script src="css/dist/remodal.min.js"></script>">
+		<script type="text/javascript" src="js/jquery.transit.min.js"></script>
+		<script type="text/javascript" src="js/menu.js"></script>
+		<script>
+			new TiltSlider( document.getElementById( 'slideshow' ) );
+			new TiltSlider( document.getElementById( 'slideshow2' ) );
+			new TiltSlider( document.getElementById( 'slideshow3' ) );
+			new TiltSlider( document.getElementById( 'slideshow4' ) );
+			new TiltSlider( document.getElementById( 'slideshow5' ) );
+			new TiltSlider( document.getElementById( 'slideshow6' ) );
+			new TiltSlider( document.getElementById( 'slideshow7' ) );
+			new TiltSlider( document.getElementById( 'slideshow8' ) );
+		</script>
+		<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-65223208-2', 'auto');
+  ga('send', 'pageview');
+
+</script>
+	</body>
+</html>

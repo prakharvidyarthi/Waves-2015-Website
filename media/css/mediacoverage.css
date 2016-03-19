@@ -1,0 +1,17 @@
+#mainHeading{
+	position: relative;
+	width : 100%;
+	top : 200px;
+}
+
+#mainHeading h2{
+	width : 100%;
+	text-align: center;
+	font-size: 75px;
+	color : white;
+	font-family: book;
+}
+
+body{
+	background-color: black;
+}

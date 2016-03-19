@@ -1,0 +1,155 @@
+#myMenu,
+.Title_rules {
+    font-family: leaguegothic;
+    text-align: center
+}
+#description,
+#myMenu,
+.Title_rules {
+    font-family: leaguegothic
+}
+@font-face{font-family:leaguegothic;src:url(../fonts/Dosis-Medium.ttf)}#myMenu{top:0;padding:0;height:25px;position:fixed;z-index:100;width:100%;list-style:none}#myMenu li {
+    display: inline-block;
+    width: 12.5%;
+    margin-right: 0;
+    padding-top: 5px;
+    height: 100%;
+    font-weight: 700;
+    cursor: pointer;
+    font-size: 17px
+}
+#myMenu li.active {
+    text-decoration: line-through
+}
+#myMenu li a {
+    outline: 0;
+    text-decoration: none;
+    color: #000
+}
+#myMenu myMenuli.active a:hover {
+    color: #000
+}
+#click,
+#myMenu li.active a {
+    color: #fff
+}
+#myMenu li:hover {
+    text-decoration: line-through
+}
+#myMenu li a,
+#myMenu li.active a {
+    display: block
+}
+#description {
+    height: auto
+}
+.Title_rules {
+    font-size: 22px;
+    font-weight: 700
+}
+.conditions,
+.general_rules,
+.rules,
+.subheading {
+    text-align: left
+}
+.subheading {
+    font-family: leaguegothic;
+    font-size: 21px;
+    font-weight: 700
+}
+#constant,
+.general_rules {
+    font-family: leaguegothic;
+    font-size: 19px
+}
+.list {
+    list-style: circle
+}
+#button {
+    margin-top: 4%;
+    margin-left: 35%;
+    font-size: 18px
+}
+#click {
+    margin-left: 40%;
+    border-radius: 12%;
+    background-color: #333;
+    padding: 7px
+}
+#click,
+#click2 {
+    font-size: 18px;
+    border: .91px solid #000
+}
+#click2:hover,
+#click:hover {
+    color: #333;
+    background-color: #fff
+}
+#click2 {
+    border-radius: 12%;
+    background-color: #333;
+    padding: 7px;
+    color: #fff
+}
+#modal-quiz {
+    background-color: #007034;
+    color: #fff
+}
+.remodal-bg {
+    margin-top: 10px
+}
+.conditions {
+    font-family: leaguegothic;
+    font-size: 19px
+}
+#modal-film {
+    background-color: #260126;
+    color: #fff
+}
+#modal-drama {
+    background-color: #FBCF59;
+    color: #000
+}
+#modal-lit,
+#modal-lit2 {
+    background-color: #57102C;
+    color: #fff
+}
+#modal-fine {
+    background-color: #FE534B;
+    color: #000
+}
+#modal-dance {
+    background-color: #3F0081;
+    color: #fff
+}
+#modal-music {
+    background-color: #D04D28;
+    color: #000
+}
+#modal-special,
+#modal-specialch {
+    background-color: #293E6A;
+    color: #fff
+} 
+@media(max-width: 472px){
+    #myMenu li{
+        font-size:10px;
+        width:10%;
+    }
+}
+}
+@media (min-width: 372px) and (max-width: 472px){
+    #myMenu li{
+        font-size:11px;
+        width:10%;
+    }
+}
+@media (min-width: 472px) and (max-width: 850px){
+    #myMenu li{
+        font-size:13px;
+        width:10%;
+    }
+}
